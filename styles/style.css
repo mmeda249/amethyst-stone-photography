@@ -10,3 +10,25 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  /* Footer styling */
+
+footer {
+    background-color: #f7d0ca;
+    color: #6d6b6b;
+}
+
+footer a {
+    text-decoration: none;
+    color: #6d6b6b;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #ce7311;
+}
+
+.bottom-footer {
+    background-color: #f7d0ca;
+    color: #6d6b6b;
+}
