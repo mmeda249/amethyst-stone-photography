@@ -1,5 +1,12 @@
-.card-img-top {
-    max-height: 200px;
-    min-height: 150px;
-    object-fit: cover;
-}
+
+
+/* Parallax styling */
+
+.parallax {
+    background-image: url("/images/parallax/smiles.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
