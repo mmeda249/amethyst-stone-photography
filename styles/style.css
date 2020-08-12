@@ -10,6 +10,44 @@ html, body {
     color: #4d4d4d;
 }
 
+.section_heading {
+    font-family: 'Homemade Apple', cursive;
+    padding-bottom: 3rem;
+}
+
+/* Navigation styling */
+
+.navbar {
+    padding: 0.8rem;
+    color: ;
+    background: ;
+}
+
+.navbar-nav li {
+    padding-right: 1.3rem;
+}
+
+.nav-link {
+    font-size: 1.1rem !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+/* Carousel styling */
+
+
+
+/* Styling for divs with 'Padding' class */
+
+.padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
 /* Introduction section styling */
 
 .intro {
@@ -27,11 +65,22 @@ html, body {
     background-size: cover;
   }
 
+/* Instagram section styling */
+
+.social_section_top {
+    padding-top: 6rem;
+}
+
+.social_section_bottom {
+    padding-bottom: 6rem;
+}
+
   /* Footer styling */
 
 footer {
     background-color: #f7d0ca;
     color: #6d6b6b;
+    padding-top: 2.5rem;
 }
 
 footer a {
@@ -44,7 +93,7 @@ footer a:hover {
     color: #ce7311;
 }
 
-.bottom-footer {
+.bottom_footer {
     background-color: #f7d0ca;
     color: #6d6b6b;
 }
