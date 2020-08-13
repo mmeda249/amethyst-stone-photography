@@ -45,6 +45,15 @@ html, body {
     border: none;
 }
 
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f7d0ca;
+}
+
 /* Carousel styling */
 
 
