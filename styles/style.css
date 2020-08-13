@@ -67,8 +67,14 @@ html, body {
     text-transform: uppercase;
 }
 
+.intro_content {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
 .btn-outline-secondary {
     text-transform: uppercase;
+    margin-top: 1.5rem;
 }
 
 .btn-outline-secondary:hover {
@@ -78,6 +84,8 @@ html, body {
 }
 
 /* Services section styling */
+
+
 
 .card-title {
     text-transform: uppercase;
