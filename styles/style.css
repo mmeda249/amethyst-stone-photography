@@ -74,7 +74,7 @@ html, body {
 
 .btn-outline-secondary {
     text-transform: uppercase;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .btn-outline-secondary:hover {
@@ -129,8 +129,8 @@ html, body {
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 1.5rem;
-      color: #4d4d4d;
-      text-shadow: 1px 1px rgb(236, 228, 228);
+      color: #2c2b2b;
+      text-shadow: 1px 1px 2px #fff;
   }
 
 /* Instagram section styling */
