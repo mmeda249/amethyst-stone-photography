@@ -85,7 +85,27 @@ html, body {
 
 /* Services section styling */
 
+.card-deck {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 
+.card-deck a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+.card {
+    border: none;
+}
+
+.card a:hover {
+    color: #f5a599;
+}
+
+.card-img-top:hover {
+    filter: brightness(110%);
+}
 
 .card-title {
     text-transform: uppercase;
