@@ -63,7 +63,7 @@ html, body {
 }
 
 .intro_heading {
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
     text-transform: uppercase;
 }
 
@@ -177,3 +177,42 @@ footer a:hover {
     background-color: #f7d0ca;
     color: #6d6b6b;
 }
+
+
+/* Responsive Breakpoints */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+
+    .parallax_text {
+        font-size: 1.3rem;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {    
+     
+    .card {
+    padding-bottom: 1.5rem;
+    }
+
+    .parallax_text {
+        font-size: 1.3rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+    .card {
+        padding-bottom: 1.5rem;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
