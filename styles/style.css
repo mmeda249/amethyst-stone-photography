@@ -96,7 +96,7 @@ html, body {
 }
 
 .insta_post:hover {
-    transform: scale(1.1);
+    filter: brightness(110%);
 }
 
   /* Footer styling */
@@ -110,7 +110,6 @@ footer {
 .footer_header {
     text-transform: uppercase;
 }
-
 
 footer a {
     text-decoration: none;
