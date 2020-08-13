@@ -39,7 +39,6 @@ html, body {
     border: none;
 }
 
-
 /* Carousel styling */
 
 
@@ -58,10 +57,20 @@ html, body {
     background: #fae1dd;
 }
 
+.btn-outline-secondary {
+    text-transform: uppercase;
+}
+
 .btn-outline-secondary:hover {
     background: #f5a599;
     color: #fff;
     border: none;
+}
+
+/* Services section styling */
+
+.card-title {
+    text-transform: uppercase;
 }
 
 /* Parallax styling */
@@ -87,7 +96,7 @@ html, body {
 }
 
 .insta_post:hover {
-    transform: scale();
+    transform: scale(1.1);
 }
 
   /* Footer styling */
@@ -98,6 +107,11 @@ footer {
     padding-top: 2.5rem;
 }
 
+.footer_header {
+    text-transform: uppercase;
+}
+
+
 footer a {
     text-decoration: none;
     color: #6d6b6b;
@@ -105,7 +119,11 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
-    color: #ce7311;
+    color: #fff;
+}
+
+.social a {
+    text-transform: uppercase;
 }
 
 .bottom_footer {
