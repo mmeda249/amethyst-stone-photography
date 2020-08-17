@@ -242,6 +242,7 @@ footer a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 2rem;
 }
 
 .services_header {
@@ -256,6 +257,14 @@ footer a:hover {
 
 /* Service Card styling */
 
-.wedding_card {
-    max-width: 80%;
+.breakdown_services {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    padding-right: 5rem;
+    padding-left: 6rem;
+}
+.service_option {
+    width: 100%;
+    padding-bottom: 2rem;
+
 }
