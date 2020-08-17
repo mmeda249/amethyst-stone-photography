@@ -130,6 +130,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.75;
 }
 
   .parallax_text {
@@ -138,8 +139,7 @@ html, body {
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 1.5rem;
-      color: #2c2b2b;
-      text-shadow: 1px 1px 2px #fff;
+      color: #000;
   }
 
 /* Instagram section styling */
