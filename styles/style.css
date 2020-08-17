@@ -261,18 +261,19 @@ footer a:hover {
 .service_button, .book_button {
     background-color: #f37c6a;
     color: #fff !important;
-    border: none;
+    border: 1px solid #f37c6a;
 }
 
 .service_button:hover, .book_button:hover {
     background-color: #df503a;
     color: #fff !important;
-    border: none;
+    border: 1px solid #df503a;
 }
 
 .service2_button {
     background-color: transparent;
     color: #6d6b6b;
+    margin-left: 1rem;
 }
 
 .service2_button:hover {
@@ -342,15 +343,42 @@ footer a:hover {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
 
+    .service_option {
+        padding-bottom: 0.6rem;
+    }
+    
+    .service_content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    ..service_button, .service2_button {
+        margin: 0 auto;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {    
-    
+@media (min-width: 576px) {  
+
+    .service_option {
+        padding-bottom: 0.6rem;
+    }
+
+    .service_content {
+        text-align: center;
+    }
+
+    ..service_button, .service2_button {
+        margin: 0 auto;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    
+    .service_option {
+        padding-bottom: 0.6rem;
+    }
     
  }
 
