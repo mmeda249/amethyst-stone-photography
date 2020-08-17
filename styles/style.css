@@ -300,9 +300,16 @@ footer a:hover {
 
 /* Pricing section styling */
 
+.pricing_heading {
+    font-family: 'Homemade Apple', cursive;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
 .pricing_deck {
     padding-right: 1rem;
     padding-left: 2rem;
+    margin-bottom: 4rem;
 }
 
 .pricing_card {
@@ -337,7 +344,6 @@ footer a:hover {
 }
 
 
-
 /* Responsive Breakpoints for services.html */
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -352,7 +358,7 @@ footer a:hover {
         padding-right: 2rem;
     }
 
-    ..service_button, .service2_button {
+    .service_button, .service2_button {
         margin: 0 auto;
     }
 }
@@ -368,17 +374,14 @@ footer a:hover {
         text-align: center;
     }
 
-    ..service_button, .service2_button {
+    .service_button, .service2_button {
         margin: 0 auto;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    
-    .service_option {
-        padding-bottom: 0.6rem;
-    }
+
     
  }
 
