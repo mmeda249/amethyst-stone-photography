@@ -273,3 +273,6 @@ footer a:hover {
     padding-right: 2rem;
     padding-left: 2rem;
 }
+.pricing_card {
+    border: 1px solid #f5a599
+}
