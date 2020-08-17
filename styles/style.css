@@ -256,6 +256,13 @@ footer a:hover {
 }
 
 
+/* Buttons styling */
+
+.btn-primary {
+    background-color: #f5a599;
+    border: none;
+}
+
 /* Service Card styling */
 
 .breakdown_services {
@@ -275,12 +282,23 @@ footer a:hover {
     padding-right: 1rem;
     padding-left: 2rem;
 }
+
 .pricing_card {
-    border: 1px solid #f5a599
+    border: 1px solid #f5a599;
+}
+
+.card_padding {
+    margin-bottom: 2rem;
+}
+
+.price {
+    color: #f37c6a;
+    font-weight: 900;
+    font-size: 2rem;
 }
 
 .per_hour {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .card ul {
