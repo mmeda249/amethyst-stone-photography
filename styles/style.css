@@ -250,6 +250,7 @@ footer a:hover {
         top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
+        font-family: 'Homemade Apple', cursive;
         color: #fff;
         text-shadow: 2px 2px 2px #6d6b6b;
 }
