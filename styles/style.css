@@ -23,6 +23,7 @@ html, body {
 
 .navbar-brand {
     text-transform: uppercase;
+    padding-left: 2rem;
 }
 
 .company_name {
@@ -44,7 +45,6 @@ html, body {
 .navbar-toggler {
     border: none;
 }
-
 
 .dropdown-menu {
     border: none;
