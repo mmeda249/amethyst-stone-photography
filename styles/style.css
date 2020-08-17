@@ -258,15 +258,26 @@ footer a:hover {
 
 /* Buttons styling */
 
-.service_button {
+.service_button, .book_button {
     background-color: #f37c6a;
+    color: #fff !important;
     border: none;
 }
 
-.service_button:hover {
-    background-color: #ee6853;
+.service_button:hover, .book_button:hover {
+    background-color: #df503a;
     color: #fff !important;
     border: none;
+}
+
+.service2_button {
+    background-color: transparent;
+    color: #6d6b6b;
+}
+
+.service2_button:hover {
+    background-color: #6d6b6b !important;
+    color: #fff !important;
 }
 
 /* Service Card styling */
