@@ -270,12 +270,31 @@ footer a:hover {
 }
 
 .pricing_deck {
-    padding-right: 2rem;
+    padding-right: 1rem;
     padding-left: 2rem;
 }
 .pricing_card {
     border: 1px solid #f5a599
 }
+
+.per_hour {
+    font-size: 0.8rem;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card ul li::before {
+    content: "\2022";
+    color: #f5a599;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+
 
 /* Responsive Breakpoints for services.html */
 
