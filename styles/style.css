@@ -258,8 +258,14 @@ footer a:hover {
 
 /* Buttons styling */
 
-.btn-primary {
-    background-color: #f5a599;
+.service_button {
+    background-color: #f37c6a;
+    border: none;
+}
+
+.service_button:hover {
+    background-color: #ee6853;
+    color: #fff !important;
     border: none;
 }
 
