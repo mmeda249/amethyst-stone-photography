@@ -268,3 +268,8 @@ footer a:hover {
     background-color: #faf1f0;
     width: 100%;
 }
+
+.pricing_deck {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
