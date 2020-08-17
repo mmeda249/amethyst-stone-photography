@@ -380,3 +380,29 @@ footer a:hover {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
+
+
+/* The code below is styling for portfolio_weddings.html */
+
+/* Parallax styling */
+
+.parallax_weddings {
+    background-image: url("/images/portfolio/weddings/kiss_field.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.services_header {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Homemade Apple', cursive;
+        color: #fff;
+        text-shadow: 2px 2px 2px #6d6b6b;
+}
