@@ -293,6 +293,10 @@ footer a:hover {
     width: 100%;
 }
 
+.service_content {
+    padding-left: 3rem;
+}
+
 /* Pricing section styling */
 
 .pricing_deck {
