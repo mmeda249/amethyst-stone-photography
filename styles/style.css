@@ -273,7 +273,7 @@ footer a:hover {
 .service2_button {
     background-color: transparent;
     color: #6d6b6b;
-    margin-left: 1rem;
+    margin-left: 0.7rem;
 }
 
 .service2_button:hover {
@@ -357,11 +357,8 @@ footer a:hover {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-
-    .service_button, .service2_button {
-        margin: 0 auto;
-    }
 }
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
@@ -370,13 +367,6 @@ footer a:hover {
         padding-bottom: 0.6rem;
     }
 
-    .service_content {
-        text-align: center;
-    }
-
-    .service_button, .service2_button {
-        margin: 0 auto;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
