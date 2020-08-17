@@ -68,7 +68,7 @@ html, body {
 /* Introduction section styling */
 
 .intro {
-    background: #fae1dd;
+    background: #faf1f0;
 }
 
 .intro_heading {
@@ -265,7 +265,8 @@ footer a:hover {
     padding-left: 6rem;
 }
 .service_option {
+    background-color: #faf1f0;
     width: 100%;
     padding-bottom: 2rem;
-
+    
 }
