@@ -269,6 +269,8 @@ footer a:hover {
     width: 100%;
 }
 
+/* Pricing section styling */
+
 .pricing_deck {
     padding-right: 1rem;
     padding-left: 2rem;
@@ -284,6 +286,17 @@ footer a:hover {
 .card ul {
     list-style: none;
 }
+
+.card ul li {
+    padding-top: 1.5rem;
+}
+
+.book_button {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+
 
 /* Responsive Breakpoints for services.html */
 
