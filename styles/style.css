@@ -146,10 +146,14 @@ html, body {
 
 .social_section_top {
     padding-top: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .social_section_bottom {
     padding-bottom: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .insta_post:hover {
@@ -247,4 +251,11 @@ footer a:hover {
         transform: translate(-50%, -50%);
         color: #fff;
         text-shadow: 2px 2px 2px #6d6b6b;
+}
+
+
+/* Service Card styling */
+
+.wedding_card {
+    max-width: 80%;
 }
