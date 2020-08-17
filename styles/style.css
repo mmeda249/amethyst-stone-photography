@@ -285,17 +285,6 @@ footer a:hover {
     list-style: none;
 }
 
-.card ul li::before {
-    content: "\2022";
-    color: #f5a599;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-}
-
-
-
 /* Responsive Breakpoints for services.html */
 
 /* Extra small devices (portrait phones, less than 576px) */
