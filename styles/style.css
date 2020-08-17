@@ -230,4 +230,21 @@ footer a:hover {
 
 /* Parallax styling */
 
+.parallax_services {
+    background-image: url("/images/services/bride-1837148_1920.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.services_header {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-shadow: 2px 2px 2px #6d6b6b;
+}
