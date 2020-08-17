@@ -192,7 +192,7 @@ footer a:hover {
 }
 
 
-/* Responsive Breakpoints */
+/* Responsive Breakpoints for index.html */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
@@ -276,3 +276,26 @@ footer a:hover {
 .pricing_card {
     border: 1px solid #f5a599
 }
+
+/* Responsive Breakpoints for services.html */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {    
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
