@@ -285,8 +285,14 @@ footer a:hover {
     border: 1px solid #f5a599;
 }
 
-.breakdown_services ul li {
-    font-weight: bold;
+.service_styles {
+    font-weight: 600;
+}
+
+.photo_styles {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #f5a599;
 }
 
 /* Pricing section styling */
