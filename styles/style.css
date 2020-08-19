@@ -279,6 +279,12 @@ footer a:hover {
     padding-right: 5rem;
     padding-left: 6rem;
 }
+
+.breakdown_services hr {
+    width: 430px;
+    border: 1px solid #f5a599;
+}
+
 .service_option {
     background-color: #faf1f0;
     width: 100%;
