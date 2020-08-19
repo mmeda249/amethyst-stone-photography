@@ -10,6 +10,10 @@ html, body {
     color: #4d4d4d;
 }
 
+h3 {
+    text-transform: uppercase;
+}
+
 .section_heading {
     font-family: 'Homemade Apple', cursive;
     padding-bottom: 3rem;
@@ -541,7 +545,6 @@ footer a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 2rem;
 }
 
 .about_header {
@@ -577,4 +580,8 @@ footer a:hover {
 .about_section hr {
         width: 260px;
         border: 1px solid #f5a599;
+}
+
+.dreamteam_heading {
+
 }
