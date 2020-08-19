@@ -410,13 +410,17 @@ footer a:hover {
 /* Gallery styling */
 
 
-.gallery_section {
+#gallery_section {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0 4px;
     margin: 4rem;
+  }
+
+  #gallery_section:hover {
+      cursor: pointer;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -460,7 +464,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_engagements {
-    background-image: url("/images/portfolio/engagements/couple_traintracks.jpg");
+    background-image: url("/images/portfolio/engagements/engaged_rednails.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
