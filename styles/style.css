@@ -165,7 +165,7 @@ html, body {
 footer {
     background-color: #f7d0ca;
     color: #6d6b6b;
-    padding-top: 2.5rem;
+    padding-top: 2rem;
 }
 
 .footer_header {
@@ -380,3 +380,131 @@ footer a:hover {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
+
+
+/* The code below is styling for portfolio_weddings.html */
+
+/* Parallax styling */
+
+.parallax_weddings {
+    background-image: url("/images/portfolio/weddings/kiss_field.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.weddings_header {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Homemade Apple', cursive;
+        color: #fff;
+        text-shadow: 2px 2px 2px #6d6b6b;
+}
+
+/* Gallery styling */
+
+
+#gallery_section {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: 4rem;
+  }
+
+  #gallery_section img:hover {
+      cursor: pointer;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .column img:hover {
+    filter: brightness(110%);
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+/* The code below is styling for portfolio_engagements.html */
+
+/* Parallax styling */
+
+.parallax_engagements {
+    background-image: url("/images/portfolio/engagements/engaged_rednails.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.engagements_header {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Homemade Apple', cursive;
+        color: #fff;
+        text-shadow: 2px 2px 2px #6d6b6b;
+}
+
+/* The code below is styling for portfolio_engagements.html */
+
+/* Parallax styling */
+
+.parallax_editorial {
+    background-image: url("/images/portfolio/editorial/editorial_header.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.editorial_header {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Homemade Apple', cursive;
+        color: #fff;
+        text-shadow: 2px 2px 2px #6d6b6b;
+}
