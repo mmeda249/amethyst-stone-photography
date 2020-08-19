@@ -285,13 +285,8 @@ footer a:hover {
     border: 1px solid #f5a599;
 }
 
-.service_option {
-    background-color: #faf1f0;
-    width: 100%;
-}
-
-.service_content {
-    padding-left: 3rem;
+.breakdown_services ul li {
+    font-weight: bold;
 }
 
 /* Pricing section styling */
@@ -310,6 +305,7 @@ footer a:hover {
 
 .pricing_card {
     border: 1px solid #f5a599;
+    background: #faf1f0;
 }
 
 .card_padding {
