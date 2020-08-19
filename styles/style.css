@@ -455,3 +455,27 @@ footer a:hover {
     }
   }
 
+/* The code below is styling for portfolio_engagements.html */
+
+/* Parallax styling */
+
+.parallax_engagements {
+    background-image: url("/images/portfolio/engagements/couple_traintracks.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.engagements_header {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Homemade Apple', cursive;
+        color: #fff;
+        text-shadow: 2px 2px 2px #6d6b6b;
+}
