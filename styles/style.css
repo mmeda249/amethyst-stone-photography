@@ -68,7 +68,7 @@ html, body {
 /* Introduction section styling */
 
 .intro {
-    background: #fae1dd;
+    background: #faf1f0;
 }
 
 .intro_heading {
@@ -146,10 +146,14 @@ html, body {
 
 .social_section_top {
     padding-top: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .social_section_bottom {
     padding-bottom: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .insta_post:hover {
@@ -188,7 +192,7 @@ footer a:hover {
 }
 
 
-/* Responsive Breakpoints */
+/* Responsive Breakpoints for index.html */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
@@ -217,6 +221,158 @@ footer a:hover {
         padding-bottom: 1.5rem;
     }
 
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+
+/* The code below is styling for services.html */
+
+/* Parallax styling */
+
+.parallax_services {
+    background-image: url("/images/services/bride-1837148_1920.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.services_header {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Homemade Apple', cursive;
+        color: #fff;
+        text-shadow: 2px 2px 2px #6d6b6b;
+}
+
+
+/* Buttons styling */
+
+.service_button, .book_button {
+    background-color: #f37c6a;
+    color: #fff !important;
+    border: 1px solid #f37c6a;
+}
+
+.service_button:hover, .book_button:hover {
+    background-color: #df503a;
+    color: #fff !important;
+    border: 1px solid #df503a;
+}
+
+.service2_button {
+    background-color: transparent;
+    color: #6d6b6b;
+    margin-left: 0.7rem;
+}
+
+.service2_button:hover {
+    background-color: #6d6b6b !important;
+    color: #fff !important;
+}
+
+/* Service Card styling */
+
+.breakdown_services {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    padding-right: 5rem;
+    padding-left: 6rem;
+}
+.service_option {
+    background-color: #faf1f0;
+    width: 100%;
+}
+
+.service_content {
+    padding-left: 3rem;
+}
+
+/* Pricing section styling */
+
+.pricing_heading {
+    font-family: 'Homemade Apple', cursive;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.pricing_deck {
+    padding-right: 1rem;
+    padding-left: 2rem;
+    margin-bottom: 4rem;
+}
+
+.pricing_card {
+    border: 1px solid #f5a599;
+}
+
+.card_padding {
+    margin-bottom: 2rem;
+}
+
+.price {
+    color: #f37c6a;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.per_hour {
+    font-size: 1rem;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card ul li {
+    padding-top: 1.5rem;
+}
+
+.book_button {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+
+/* Responsive Breakpoints for services.html */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+
+    .service_option {
+        padding-bottom: 0.6rem;
+    }
+    
+    .service_content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+
+    .service_option {
+        padding-bottom: 0.6rem;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    
  }
 
 /* Large devices (desktops, 992px and up) */
