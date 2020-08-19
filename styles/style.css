@@ -271,20 +271,6 @@ footer a:hover {
         text-shadow: 2px 2px 2px #6d6b6b;
 }
 
-
-/* Buttons styling */
-
-.service2_button {
-    background-color: transparent;
-    color: #6d6b6b;
-    margin-left: 0.7rem;
-}
-
-.service2_button:hover {
-    background-color: #6d6b6b !important;
-    color: #fff !important;
-}
-
 /* Service Card styling */
 
 .breakdown_services {
