@@ -504,7 +504,7 @@ footer a:hover {
         text-shadow: 2px 2px 2px #6d6b6b;
 }
 
-/* The code below is styling for portfolio_engagements.html */
+/* The code below is styling for portfolio_editorial.html */
 
 /* Parallax styling */
 
@@ -520,6 +520,31 @@ footer a:hover {
 }
 
 .editorial_header {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Homemade Apple', cursive;
+        color: #fff;
+        text-shadow: 2px 2px 2px #6d6b6b;
+}
+
+/* The code below is styling for about.html */
+
+/* Parallax styling */
+
+.parallax_about {
+    background-image: url("/images/about/rose-3189198_1920.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.about_header {
         position: absolute;
         top: 60%;
         left: 50%;
