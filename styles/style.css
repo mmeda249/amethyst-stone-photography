@@ -133,6 +133,7 @@ html, body {
 
 .card-title {
     text-transform: uppercase;
+    padding-top: 1rem;
 }
 
 /* Parallax styling */
