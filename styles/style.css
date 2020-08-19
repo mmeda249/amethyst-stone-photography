@@ -271,11 +271,11 @@ footer a:hover {
         text-shadow: 2px 2px 2px #6d6b6b;
 }
 
-/* Service Card styling */
+/* Services section styling */
 
 .breakdown_services {
     margin-top: 6rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2.2rem;
     padding-right: 5rem;
     padding-left: 6rem;
 }
@@ -295,6 +295,17 @@ footer a:hover {
     color: #f5a599;
 }
 
+/* Testimonial styling */
+
+.testimonial {
+    background: #faf1f0;
+    padding: 3.5rem 5rem 2rem 6rem;  
+}
+
+.fa-quote-left, .fa-quote-right {
+    opacity: 0.6;
+}
+
 /* Pricing section styling */
 
 .pricing_heading {
@@ -311,7 +322,6 @@ footer a:hover {
 
 .pricing_card {
     border: 1px solid #f5a599;
-    background: #faf1f0;
 }
 
 .card_padding {
