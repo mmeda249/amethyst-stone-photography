@@ -158,6 +158,10 @@ html, body {
       color: #000;
   }
 
+  .home_quote {
+      font-size: 1.6rem;
+  }
+
 /* Instagram section styling */
 
 .social_section_top {
