@@ -54,15 +54,30 @@ html, body {
     background-color: #f7d0ca;
 }
 
-/* Carousel styling */
-
-
-
 /* Styling for divs with 'Padding' class */
 
 .padding {
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+
+/* Primary button styling */
+
+.btn-primary {
+    background-color: #f37c6a;
+    color: #fff !important;
+    border: 1px solid #f37c6a;
+}
+
+.btn-primary:hover {
+    background-color: #df503a;
+    color: #fff !important;
+    border: 1px solid #df503a;
+}
+
+.package_btn {
+    margin-bottom: 1.4rem;
 }
 
 /* Introduction section styling */
@@ -257,18 +272,6 @@ footer a:hover {
 
 
 /* Buttons styling */
-
-.service_button, .book_button {
-    background-color: #f37c6a;
-    color: #fff !important;
-    border: 1px solid #f37c6a;
-}
-
-.service_button:hover, .book_button:hover {
-    background-color: #df503a;
-    color: #fff !important;
-    border: 1px solid #df503a;
-}
 
 .service2_button {
     background-color: transparent;
