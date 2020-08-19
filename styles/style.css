@@ -582,6 +582,17 @@ footer a:hover {
         border: 1px solid #f5a599;
 }
 
-.dreamteam_heading {
+.dream_team {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
 
+.dream_team hr {
+    width: 100%;
+    border: 1px solid #f5a599;
+    justify-content: center;
+}
+
+.dreamteam_heading {
+    padding-bottom: 2.2rem;
 }
