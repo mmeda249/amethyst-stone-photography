@@ -196,7 +196,8 @@ h3 {
 footer {
     background-color: #f7d0ca;
     color: #6d6b6b;
-    padding-top: 2rem;
+    padding-top: 2.8rem;
+    padding-bottom: 0.5rem;
 }
 
 .footer_header {
@@ -211,6 +212,10 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: #fff;
+}
+
+.social {
+    padding-top: 0.3rem;
 }
 
 .social a {
