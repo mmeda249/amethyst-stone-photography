@@ -76,6 +76,7 @@ h3 {
     background-color: #f37c6a;
     color: #fff !important;
     border: 1px solid #f37c6a;
+    text-transform: uppercase;
 }
 
 .btn-primary:hover {
@@ -85,7 +86,7 @@ h3 {
 }
 
 .package_btn {
-    margin-bottom: 1.4rem;
+    margin-bottom: 0.7rem;
 }
 
 /* Introduction section styling */
@@ -595,6 +596,9 @@ footer a:hover {
     padding-bottom: 2.2rem;
 }
 
+.contact_team {
+    font-weight: bold;
+}
 
 /* The code below is styling for contact.html */
 
@@ -617,4 +621,22 @@ footer a:hover {
         transform: translate(-50%, -50%);
         color: #fff;
         text-shadow: 2px 2px 2px #6d6b6b;
+}
+
+.contact_section {
+    margin-top: 6rem;
+
+}
+
+.contact_section a {
+    color: #f37c6a !important;
+    text-decoration: none;
+}
+
+.form-control {
+    margin-bottom: 1.5rem;
+}
+
+.address_section {
+    margin-bottom: 3rem;
 }
