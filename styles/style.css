@@ -263,7 +263,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_services {
-    background-image: url("/images/services/bride-1837148_1920.jpg");
+    background-image: url("/images/portfolio/weddings/bride_purple_flowers.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -601,7 +601,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_contact {
-    background-image: url("/images/contact/white_roses.jpg");
+    background-image: url("/images/services/rings_bouquet.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
