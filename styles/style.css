@@ -156,7 +156,7 @@ h3 {
 /* Parallax styling */
 
 .parallax {
-    background-image: url("/images/parallax/necklace.jpg");
+    background-image: url("../images/parallax/necklace.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -283,7 +283,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_services {
-    background-image: url("/images/portfolio/weddings/bride_purple_flowers.jpg");
+    background-image: url("../images/portfolio/weddings/bride_purple_flowers.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -433,7 +433,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_weddings {
-    background-image: url("/images/portfolio/weddings/kiss_field.jpg");
+    background-image: url("../images/portfolio/weddings/kiss_field.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -510,7 +510,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_engagements {
-    background-image: url("/images/portfolio/engagements/engaged_rednails.jpg");
+    background-image: url("../images/portfolio/engagements/engaged_rednails.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -534,7 +534,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_editorial {
-    background-image: url("/images/portfolio/editorial/editorial_header.jpg");
+    background-image: url("../images/portfolio/editorial/editorial_header.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -558,7 +558,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_about {
-    background-image: url("/images/about/rose-3189198_1920.jpg");
+    background-image: url("../images/about/rose-3189198_1920.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -632,7 +632,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_contact {
-    background-image: url("/images/services/rings_bouquet.jpg");
+    background-image: url("../images/services/rings_bouquet.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
