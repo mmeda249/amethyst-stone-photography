@@ -182,26 +182,25 @@ html, body {
     padding-top: 1rem;
 }
 
-/* Parallax styling */
+/* Parallax styling on index.html */
 
 .parallax {
-    background-image: url("../images/parallax/necklace.jpg");
-    min-height: 500px; 
-    position: relative;
+    background-image: url(../images/parallax/necklace.jpg);
+    padding: 100px;
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.75;
 }
 
-.parallax_text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 1.5rem;
-      color: #000;
+#quote_section i {
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.parallax_text p {
+    font-size: 1.4rem;
 }
 
 /* Instagram section styling */
