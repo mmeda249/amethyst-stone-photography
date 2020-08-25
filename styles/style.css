@@ -20,13 +20,14 @@ html, body {
     font-style: normal;
 }
 
-
 .display-4 {
     text-transform: uppercase;
 }
 
 .section_heading {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Holland', cursive;
+    font-weight: 900;
+    font-size: 2.7rem;
     padding-bottom: 3rem;
 }
 
@@ -78,7 +79,7 @@ html, body {
 /* Styling for divs with 'Padding' class */
 
 .padding {
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 4rem;
 }
 
@@ -266,6 +267,11 @@ footer a:hover {
         padding: 0.5rem;
     }
 
+    .padding {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
     .intro {
         padding-top: 3rem;
     }
@@ -298,7 +304,8 @@ footer a:hover {
     }
 
     .section_heading {
-
+        padding-bottom: 2rem;
+        padding-top: 0;
     }
 
     .parallax_text, .home_quote {
