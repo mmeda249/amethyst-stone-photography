@@ -116,10 +116,16 @@ h3 {
     padding-right: 4rem;
 }
 
+.intro hr {
+    border: 1px solid #f5a599;
+    width: 525px;
+    margin: 0.5rem auto;
+}
+
 .btn-outline-secondary {
     text-transform: uppercase;
     margin-top: 1.7rem;
-    padding: 0.7rem 1.3rem 0.7rem 1.3rem;
+    padding: 0.6rem 1rem;
 }
 
 .btn-outline-secondary:hover {
@@ -245,6 +251,45 @@ footer a:hover {
 
     .navbar-brand {
         font-size: 75%;
+        padding-left: 1rem;
+    }
+
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .intro {
+        padding-top: 3rem;
+    }
+
+    .intro h2 {
+        font-size: 180%;
+    }
+
+    .intro h4 {
+        font-size: 120%;
+    }
+
+    .intro hr {
+    width: 90%;
+    }
+
+    .intro_content {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .intro_heading {
+        padding-bottom: 1.8rem;
+    }
+
+    .intro_text {
+        font-size: 110%;
+    }
+
+    .btn-outline-secondary {
+        margin-top: 1.1rem;
+        padding: 0.5rem 1rem;
     }
 
     .parallax_text, .home_quote {
