@@ -19,7 +19,7 @@ h3 {
 }
 
 .section_heading {
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Crimson Text', serif;
     padding-bottom: 3rem;
 }
 
@@ -290,6 +290,10 @@ footer a:hover {
     .btn-outline-secondary {
         margin-top: 1.1rem;
         padding: 0.5rem 1rem;
+    }
+
+    .section_heading {
+
     }
 
     .parallax_text, .home_quote {
