@@ -25,7 +25,7 @@ html, body {
     font-family: 'Holland', cursive;
 }
 
-.section_heading h2, .breakdown_services h3, .sessions, .about_section h3, .dreamteam_heading {
+.section_heading h2, .breakdown_services h3, .sessions, .about_section h3, .dreamteam_section h3 {
     font-family: 'Holland', cursive;
     font-weight: 900;
     font-size: 2.8rem;
@@ -497,11 +497,11 @@ footer a:hover {
     font-size: 1rem;
 }
 
-.card ul {
+.pricing_deck ul {
     list-style: none;
 }
 
-.card ul li {
+.pricing_deck ul li {
     padding-top: 1.5rem;
 }
 
@@ -709,15 +709,30 @@ footer a:hover {
     padding: 0;
 }
 
-.about_section hr, .dream_team hr, .dreamteam_heading hr {
+.about_section hr, .dreamteam_section hr {
         width: 100px;
         border: 1px solid #f5a599;
         margin: 0 auto 3rem;
 }
 
-.dream_team {
+.dreamteam_section {
     margin-top: 3rem;
     margin-bottom: 1.5rem;
+}
+
+.dreamteam_listing hr {
+    width: 100px;
+        border: 1px solid #f5a599;
+        margin: 0 auto 1rem;
+}
+
+.dreamteam_listing {
+    background: #faf1f0;
+    padding: 1.5rem;
+}
+
+#meet_team {
+    margin-bottom: 4rem;
 }
 
 .contact_team {
