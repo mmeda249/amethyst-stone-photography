@@ -25,11 +25,12 @@ html, body {
     font-family: 'Holland', cursive;
 }
 
-.section_heading h2 {
+.section_heading h2, .breakdown_services h3, .sessions, .about_section h3, .dreamteam_heading {
     font-family: 'Holland', cursive;
     font-weight: 900;
     font-size: 2.8rem;
     padding-bottom: 0.5rem;
+    text-transform: capitalize;
 }
 
 .section_heading {
@@ -406,18 +407,23 @@ footer a:hover {
         text-shadow: 2px 2px 2px #6d6b6b;
 }
 
-/* Services section styling */
+/* services.html styling */
 
 .breakdown_services {
-    margin-top: 6rem;
+    margin-top: 3.5rem;
     margin-bottom: 2.2rem;
     padding-right: 5rem;
     padding-left: 6rem;
 }
 
 .breakdown_services hr {
-    width: 430px;
     border: 1px solid #f5a599;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.service_description {
+    margin-top: 2.7rem;
 }
 
 .service_styles {
@@ -451,6 +457,16 @@ footer a:hover {
 }
 
 /* Pricing section styling */
+
+.sessions {
+    padding-top: 3rem;
+}
+
+.session_hr {
+    border: 1px solid #f5a599;
+    width: 100px;
+    margin: 0 auto;
+}
 
 .pricing_heading {
     margin-bottom: 3rem;
@@ -679,17 +695,6 @@ footer a:hover {
         color: #fff;
         text-shadow: 2px 2px 2px #6d6b6b;
 }
-
-/* might keep this code for padding purposes throughout the whole website
-
-.about_section {
-    padding: 100px 30px;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 900px;
-  }
-
-  */
 
 .about_section {
     background: #faf1f0;
