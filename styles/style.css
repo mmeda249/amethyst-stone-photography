@@ -21,7 +21,8 @@ html, body {
 }
 
 .display-4 {
-    text-transform: uppercase;
+    font-size: 6.5rem;
+    font-family: 'Holland', cursive;
 }
 
 .section_heading h2 {
@@ -116,7 +117,7 @@ html, body {
 
 .intro_heading h1 {
     font-family: 'Holland', cursive;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 900;
 }
 
