@@ -184,14 +184,6 @@ html, body {
 
 /* Parallax styling on index.html */
 
-.parallax::before {
-    content: "";
-    background: #000;
-    width: 110%;
-    opacity: 0.3;
-    position: relative;
-}
-
 .parallax {
     background-image: url(../images/parallax/necklace.jpg);
     height: 450px;
@@ -202,16 +194,23 @@ html, body {
     background-size: cover;
 }
 
+.overlay {
+    background: rgba(20, 20, 20, 0.35);
+    height: 100%;
+}
+
 #quote_section i {
     font-size: 3.5rem;
     padding-bottom: 1.7rem;
     padding-top: 5rem;
+    color: #fff;
+    opacity: 0.7;
 }
 
 .parallax_text p {
     font-size: 1.4rem;
     font-weight: 500;
-    color: #000;
+    color: #fff;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 }
@@ -335,6 +334,7 @@ footer a:hover {
 
     #quote_section i {
         font-size: 1.5rem;
+        margin-top: 2.5rem;
         padding-bottom: 1rem;
     }
     
@@ -445,7 +445,7 @@ footer a:hover {
     padding-top: 1.5rem;
 }
 
-.fa-quote-left, .fa-quote-right {
+.testimonial_quotations {
     opacity: 0.6;
 }
 
