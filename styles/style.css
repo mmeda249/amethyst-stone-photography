@@ -705,24 +705,19 @@ footer a:hover {
     padding: 1.5rem;
 }
 
-.about_section hr {
-        width: 260px;
+.about_section h3 {
+    padding: 0;
+}
+
+.about_section hr, .dream_team hr, .dreamteam_heading hr {
+        width: 100px;
         border: 1px solid #f5a599;
+        margin: 0 auto 3rem;
 }
 
 .dream_team {
     margin-top: 3rem;
     margin-bottom: 1.5rem;
-}
-
-.dream_team hr {
-    width: 100%;
-    border: 1px solid #f5a599;
-    justify-content: center;
-}
-
-.dreamteam_heading {
-    padding-bottom: 2.2rem;
 }
 
 .contact_team {
