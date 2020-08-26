@@ -184,10 +184,18 @@ html, body {
 
 /* Parallax styling on index.html */
 
+.parallax::before {
+    content: "";
+    background: #000;
+    width: 110%;
+    opacity: 0.3;
+    position: relative;
+}
+
 .parallax {
     background-image: url(../images/parallax/necklace.jpg);
-    padding: 100px;
-    height: 500px;
+    height: 450px;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -196,11 +204,20 @@ html, body {
 
 #quote_section i {
     font-size: 3.5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.7rem;
+    padding-top: 5rem;
 }
 
 .parallax_text p {
     font-size: 1.4rem;
+    font-weight: 500;
+    color: #000;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.quote_source {
+    font-style: italic;
 }
 
 /* Instagram section styling */
@@ -312,11 +329,21 @@ footer a:hover {
         padding-bottom: 3.3rem;
     }
 
-    .parallax_text, .home_quote {
-        font-size: 110%;
-        padding: 0;
-        margin: 0;
+    .parallax {
+        background-position: left;
     }
+
+    #quote_section i {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    .parallax_text p {
+        font-size: 100%;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
     .social_section_top {
         padding-top: 2.5rem;
     }
