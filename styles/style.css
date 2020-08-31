@@ -353,6 +353,17 @@ footer a:hover {
     .social_section_bottom {
         padding-bottom: 3rem;
     }
+
+/* Extra small devices styling for services.html */
+
+    .service_option {
+        padding-bottom: 0.6rem;
+    }
+    
+    .service_content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -364,6 +375,12 @@ footer a:hover {
 
     .parallax_text {
         font-size: 1.3rem;
+    }
+
+/* Small devices styling for services.html */
+
+    .service_option {
+        padding-bottom: 0.6rem;
     }
 }
 
@@ -510,44 +527,6 @@ footer a:hover {
     margin-bottom: 1.3rem;
 }
 
-
-/* Responsive Breakpoints for services.html */
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 576px) {
-
-    .service_option {
-        padding-bottom: 0.6rem;
-    }
-    
-    .service_content {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-}
-
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
-
-    .service_option {
-        padding-bottom: 0.6rem;
-    }
-
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
- }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
-
-
 /* The code below is styling for portfolio_weddings.html */
 
 /* Parallax styling */
@@ -605,7 +584,6 @@ footer a:hover {
   .column img:hover {
     filter: brightness(110%);
   }
-
 
   /* Responsive layout for galleries - makes a two column-layout instead of four columns */
   @media (max-width: 800px) {
