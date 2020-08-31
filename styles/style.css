@@ -354,6 +354,11 @@ footer a:hover {
         padding-bottom: 3rem;
     }
 
+    .bottom_footer p {
+        width: 93%;
+        margin: auto;
+    }
+
 /* Extra small devices styling for services.html */
 
 .testimonial_body img {
