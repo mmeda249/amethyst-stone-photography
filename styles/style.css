@@ -364,6 +364,12 @@ footer a:hover {
     text-align: center !important;
 }
 
+.pricing_deck {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-bottom: 4rem;
+}
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
