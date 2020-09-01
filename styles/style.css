@@ -101,9 +101,9 @@ html, body {
 }
 
 .btn-primary:hover {
-    background-color: #c93a5f;
+    background-color: #ff2f67;
     color: #fff !important;
-    border: 1px solid #c93a5f;
+    border: 1px solid #ff2f67;
 }
 
 .package_btn {
@@ -130,7 +130,7 @@ html, body {
 .intro hr {
     border: 1px solid #f5a599;
     width: 100px;
-    margin: 1rem auto;
+    margin: 0 auto;
 }
 
 .intro_text {
