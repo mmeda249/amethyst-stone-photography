@@ -14,8 +14,8 @@ html, body {
     font-family: 'Holland';
     src: url('./fonts/holland-font/Holland.otf'); 
     src: url('./fonts/holland-font/Holland.ttf');
-    src: url('holland-webfont.woff2') format('woff2'),
-         url('holland-webfont.woff') format('woff');
+    src: url('./fonts/holland-font/Holland.woff');
+    src: url('./fonts/holland-font/Holland.woff2');
     font-weight: normal;
     font-style: normal;
 }
