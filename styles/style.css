@@ -248,8 +248,8 @@ footer {
     padding-bottom: 0.5rem;
 }
 
-.footer_header {
-    text-transform: uppercase;
+footer p {
+    font-size: 0.75rem;
 }
 
 footer a {
@@ -264,10 +264,24 @@ footer a:hover {
 
 .social {
     padding-top: 0.3rem;
+    padding-bottom: 1.2rem;
 }
 
-.social a {
-    text-transform: uppercase;
+.fa-instagram, .fa-facebook-f, .fa-pinterest-p, .fa-twitter {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+}
+
+.footer_contact {
+    line-height: 1.9;
+    text-align: justify;
+    padding-left: 3.8rem;
+}
+
+.fa-envelope, .fa-phone-alt, .fa-map-marker-alt {
+    font-size: 0.8rem;
+    color: #df503a;
+    padding-right: 1.5rem;
 }
 
 .bottom_footer {
