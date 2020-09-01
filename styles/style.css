@@ -45,7 +45,7 @@ html, body {
 
 .navbar-brand img {
     width: 300px;
-    padding-left: 1.7rem;
+    padding-left: 3rem;
 }
 
 .company_name {
@@ -292,8 +292,8 @@ footer a:hover {
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 576px) {
 
-    .navbar-brand {
-        font-size: 75%;
+    .navbar-brand img {
+        width: 210px;
         padding-left: 1rem;
     }
 
