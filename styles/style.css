@@ -426,7 +426,7 @@ footer a:hover {
 /* The code below is styling for services.html */
 
 .parallax_services {
-    background-image: url("../images/services/groom_embracing_bride.jpg");
+    background-image: url("../images/services/fall_bride_overlay.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -434,6 +434,7 @@ footer a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 2rem;
+   
 }
 
 .services_header {
@@ -555,7 +556,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_weddings {
-    background-image: url("../images/portfolio/weddings/kiss_field.jpg");
+    background-image: url("../images/portfolio/weddings/kiss_field_overlay.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -631,7 +632,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_engagements {
-    background-image: url("../images/portfolio/engagements/engaged_rednails.jpg");
+    background-image: url("../images/portfolio/engagements/engaged_rednails_overlay.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -655,7 +656,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_editorial {
-    background-image: url("../images/portfolio/editorial/model_behind_tree.jpg");
+    background-image: url("../images/portfolio/editorial/model_behind_tree_overlay.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
