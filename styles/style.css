@@ -145,7 +145,7 @@ html, body {
 }
 
 .btn-outline-secondary:hover {
-    background: #eb688a;
+    background: #ff2f67;
     color: #fff;
     border: none;
 }
@@ -212,7 +212,7 @@ html, body {
 
 .parallax_text p {
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 400;
     color: #fff;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -383,6 +383,9 @@ footer a:hover {
     margin-bottom: 4rem;
     }
 
+/* Extra small device styling for about.html */
+
+
 /* General Extra Small devices styling for feeatures appearing on multiple web pages */
 
 .display-4 {
@@ -480,11 +483,12 @@ footer a:hover {
     width: 100%;
 }
 
-.testimonial_body {
+.testimonial_body, .amethyst_section {
     background: #faf1f0;
+    width: 100%;
 }
 
-.testimonial_body img {
+.testimonial_body img, .amethyst_section img {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
@@ -680,7 +684,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_about {
-    background-image: url("../images/about/peach_rose.jpg");
+    background-image: url("../images/about/peach_rose_overlay.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -700,21 +704,19 @@ footer a:hover {
 
 .about_section {
     background: #faf1f0;
-    padding: 3.5rem 5rem 2.5rem 6rem;  
+    padding-bottom: 1rem;;
 }
 
-.about_section img {
-    padding: 1.5rem;
-}
-
-.about_section h3 {
-    padding: 0;
-}
-
-.about_section hr, .dreamteam_section hr {
+.about_section hr {
         width: 100px;
         border: 1px solid #f5a599;
-        margin: 0 auto 3rem;
+        margin: 0 auto 2rem;
+}
+
+.dreamteam_section hr {
+    width: 100px;
+    border: 1px solid #f5a599;
+    margin: 0 auto 3rem;
 }
 
 .dreamteam_section {
@@ -753,7 +755,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_contact {
-    background-image: url("../images/contact/bouquet_diamonds.jpg");
+    background-image: url("../images/contact/bouquet_diamonds_overlay.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
