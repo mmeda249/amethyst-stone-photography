@@ -60,8 +60,8 @@ html, body {
     color: #f5a599;
 }
 
-.nav-link {
-    font-size: 1.1rem !important;
+.nav-link, .dropdown-item {
+    font-size: 1rem !important;
 }
 
 .navbar-toggler {
