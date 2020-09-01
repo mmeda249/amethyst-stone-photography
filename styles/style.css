@@ -244,7 +244,7 @@ html, body {
 footer {
     background-color: #ffddd7;
     color: #6d6b6b;
-    padding-top: 2.8rem;
+    padding-top: 2.3rem;
     padding-bottom: 0.5rem;
 }
 
@@ -287,6 +287,11 @@ footer a:hover {
 .bottom_footer {
     background-color: #ffddd7;
     color: #6d6b6b;
+}
+
+.bottom_footer p {
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
 }
 
 
