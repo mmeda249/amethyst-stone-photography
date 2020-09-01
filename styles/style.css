@@ -44,7 +44,8 @@ html, body {
 }
 
 .navbar-brand img {
-    width: 150px;
+    width: 225px;
+    padding-left: 1.7rem;
 }
 
 .company_name {
