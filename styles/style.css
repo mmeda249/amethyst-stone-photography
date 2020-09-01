@@ -371,17 +371,24 @@ footer a:hover {
 
 .testimonial_body img {
     width: 90%;
-}
+    }
 
 .testimonial_text {
     text-align: center !important;
-}
+    }
 
 .pricing_deck {
     padding-right: 0 !important;
     padding-left: 0 !important;
     margin-bottom: 4rem;
-}
+    }
+
+/* General Extra Small devices styling for feeatures appearing on multiple web pages */
+
+.display-4 {
+    font-size: 450%;
+    font-family: 'Holland', cursive;
+    }
 
 }
 
@@ -418,8 +425,6 @@ footer a:hover {
 
 /* The code below is styling for services.html */
 
-/* Parallax styling */
-
 .parallax_services {
     background-image: url("../images/services/groom_embracing_bride.jpg");
     min-height: 500px; 
@@ -439,8 +444,6 @@ footer a:hover {
         color: #fff;
         text-shadow: 1px 1px 1px #000;
 }
-
-/* services.html styling */
 
 .breakdown_services {
     margin-top: 3.5rem;
