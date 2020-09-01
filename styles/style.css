@@ -43,9 +43,8 @@ html, body {
     padding: 0.8rem;
 }
 
-.navbar-brand {
-    text-transform: uppercase;
-    padding-left: 2rem;
+.navbar-brand img {
+    width: 150px;
 }
 
 .company_name {
