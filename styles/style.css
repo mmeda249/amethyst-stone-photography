@@ -151,7 +151,7 @@ html, body {
 
 /* Portfolio section styling in index.html */
 
-.portfolio_section hr, .social_section_top hr  {
+.portfolio_section hr, .instagram_section hr  {
     border: 1px solid #f5a599;
     width: 100px;
     margin: 0 auto;
@@ -223,14 +223,8 @@ html, body {
 
 /* Instagram section styling */
 
-.social_section_top {
+.instagram_section {
     padding: 3.5rem 5rem;
-}
-
-.social_section_bottom {
-    padding-bottom: 6rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
 }
 
 .insta_post:hover {
@@ -363,12 +357,8 @@ footer a:hover {
         padding-right: 2.5rem;
     }
 
-    .social_section_top {
+    .instagram_section {
         padding-top: 2.5rem;
-    }
-
-    .social_section_bottom {
-        padding-bottom: 3rem;
     }
 
     .bottom_footer p {
