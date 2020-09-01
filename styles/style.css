@@ -73,7 +73,7 @@ html, body {
 }
 
 .dropdown-menu a:hover {
-    background-color: #f7d0ca;
+    background-color: #ffddd7;
 }
 
 
@@ -242,7 +242,7 @@ html, body {
   /* Footer styling */
 
 footer {
-    background-color: #f7d0ca;
+    background-color: #ffddd7;
     color: #6d6b6b;
     padding-top: 2.8rem;
     padding-bottom: 0.5rem;
@@ -259,7 +259,7 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #df503a;
 }
 
 .social {
@@ -285,7 +285,7 @@ footer a:hover {
 }
 
 .bottom_footer {
-    background-color: #f7d0ca;
+    background-color: #ffddd7;
     color: #6d6b6b;
 }
 
