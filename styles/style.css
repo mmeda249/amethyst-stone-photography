@@ -93,17 +93,17 @@ html, body {
 /* General primary button styling */
 
 .btn-primary {
-    background-color: #f37c6a;
+    background-color: #eb688a;
     color: #fff !important;
-    border: 1px solid #f37c6a;
+    border: 1px solid #eb688a;
     text-transform: uppercase;
     padding: 0.7rem 1.3rem 0.7rem 1.3rem;
 }
 
 .btn-primary:hover {
-    background-color: #df503a;
+    background-color: #c93a5f;
     color: #fff !important;
-    border: 1px solid #df503a;
+    border: 1px solid #c93a5f;
 }
 
 .package_btn {
@@ -144,7 +144,7 @@ html, body {
 }
 
 .btn-outline-secondary:hover {
-    background: #f37c6a;
+    background: #eb688a;
     color: #fff;
     border: none;
 }
@@ -234,7 +234,7 @@ html, body {
   /* Footer styling */
 
 footer {
-    background-color: #ffddd7;
+    background-color: #ffe9e6;
     color: #6d6b6b;
     padding-top: 2.3rem;
     padding-bottom: 0.5rem;
@@ -251,7 +251,7 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
-    color: #df503a;
+    color: #eb688a;
 }
 
 .social {
@@ -272,12 +272,12 @@ footer a:hover {
 
 .fa-envelope, .fa-phone-alt, .fa-map-marker-alt {
     font-size: 0.8rem;
-    color: #df503a;
+    color: #eb688a;
     padding-right: 1.5rem;
 }
 
 .bottom_footer {
-    background-color: #ffddd7;
+    background-color: #ffe9e6;
     color: #6d6b6b;
 }
 
@@ -290,7 +290,7 @@ footer a:hover {
 /* Responsive Breakpoints for index.html */
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
 
     .navbar-brand {
         font-size: 75%;
@@ -385,7 +385,7 @@ footer a:hover {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {    
+@media only screen and (min-width: 576px) {    
      
     .services_card {
     padding-bottom: 1.5rem;
@@ -400,7 +400,7 @@ footer a:hover {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     
     .services_card {
         padding-bottom: 1.5rem;
@@ -409,10 +409,10 @@ footer a:hover {
  }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media only screen and (min-width: 992px) { ... }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media only screen and (min-width: 1200px) { ... }
 
 
 /* The code below is styling for services.html */
@@ -516,7 +516,7 @@ footer a:hover {
 }
 
 .pricing_card {
-    border: 1px solid #f5a599;
+    border: 1px solid #eb688a;
 }
 
 .card_padding {
@@ -524,7 +524,7 @@ footer a:hover {
 }
 
 .price {
-    color: #f37c6a;
+    color: #eb688a;
     font-weight: 900;
     font-size: 2rem;
 }
@@ -605,7 +605,7 @@ footer a:hover {
   }
 
   /* Responsive layout for galleries - makes a two column-layout instead of four columns */
-  @media (max-width: 800px) {
+  @media only screen and (max-width: 800px) {
     .column {
       -ms-flex: 50%;
       flex: 50%;
@@ -614,7 +614,7 @@ footer a:hover {
   }
   
   /* Responsive layout for galleries - makes the two columns stack on top of each other instead of next to each other */
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     .column {
       -ms-flex: 100%;
       flex: 100%;
