@@ -103,7 +103,7 @@ html, body {
 
 .btn-primary:hover {
     background-color: #edc7b7;
-    color: #000 !important;
+    color: #4d4d4d !important;
     border: 1px solid #edc7b7;
 }
 
@@ -114,7 +114,7 @@ html, body {
 /* Introduction section styling */
 
 .intro {
-    background: #faf1f0;
+    background: rgba(217, 187, 180, 0.2);
 }
 
 .intro_heading h1 {
@@ -468,12 +468,12 @@ footer a:hover {
 /* Testimonial styling */
 
 .testimonial {
-    background: #faf1f0;
+    background: rgba(217, 187, 180, 0.2);
     width: 100%;
 }
 
-.testimonial_body, .amethyst_section {
-    background: #faf1f0;
+.testimonial_body {
+    background: rgba(217, 187, 180, 0.2);
     width: 100%;
 }
 
@@ -693,19 +693,23 @@ footer a:hover {
 }
 
 .about_section {
-    background: #faf1f0;
+    background: rgba(217, 187, 180, 0.2);
     padding-bottom: 1rem;;
 }
 
 .about_section hr {
         width: 100px;
-        border: 1px solid #f5a599;
+        border: 1px solid #d9bab3;
         margin: 0 auto 2rem;
+}
+
+.amethyst_section {
+    background:rgba(217, 187, 180, 0);
 }
 
 .dreamteam_section hr {
     width: 100px;
-    border: 1px solid #f5a599;
+    border: 1px solid #d9bab3;
     margin: 0 auto 3rem;
 }
 
@@ -716,12 +720,12 @@ footer a:hover {
 
 .dreamteam_listing hr {
     width: 100px;
-        border: 1px solid #f5a599;
+        border: 1px solid #d9bab3;
         margin: 0 auto 1rem;
 }
 
 .dreamteam_listing {
-    background: #faf1f0;
+    background: rgba(217, 187, 180, 0.2);
     padding: 1.5rem;
 }
 
