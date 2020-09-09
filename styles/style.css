@@ -27,7 +27,7 @@ html, body {
     text-transform: uppercase;
 }
 
-.section_heading h2, .breakdown_services h3, .sessions, .about_section h3, .dreamteam_section h3 {
+.section_heading h2, .breakdown_services h3, .sessions, .contact_intro h3, .about_section h3, .dreamteam_section h3 {
     font-family: 'Holland', cursive;
     font-weight: 900;
     font-size: 2.8rem;
@@ -453,19 +453,19 @@ footer a:hover {
         text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
-.breakdown_services {
-    margin-top: 3.5rem;
+.breakdown_services, .contact_intro {
+    margin-top: 2rem;
     margin-bottom: 2.2rem;
     width: 85%;
 }
 
-.breakdown_services hr {
+.breakdown_services hr, .contact_intro hr {
     border: 1px solid #d9bab3;
     width: 100px;
     margin: 0 auto;
 }
 
-.service_description {
+.service_description, .contact_description {
     margin-top: 2.7rem;
 }
 
