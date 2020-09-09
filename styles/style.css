@@ -57,7 +57,7 @@ html, body {
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav  .nav-link:hover {
-    color: #d9bab3;
+    color: #cfafa7;
 }
 
 .nav-link, .dropdown-item {
@@ -92,9 +92,11 @@ html, body {
 /* General primary button styling */
 
 .btn-primary {
-    background-color: #eb688a;
+    background-color: #d9bab3;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.1em;
     color: #fff !important;
-    border: 1px solid #eb688a;
+    border: 1px solid #cfafa7;
     text-transform: uppercase;
     padding: 0.7rem 1.3rem 0.7rem 1.3rem;
 }
@@ -144,8 +146,8 @@ html, body {
 }
 
 .btn-outline-secondary:hover {
-    background: #ff2f67;
-    color: #fff;
+    background: #d4a99e;
+    color: #000;
     border: none;
 }
 
@@ -172,7 +174,7 @@ html, body {
 }
 
 .card a:hover {
-    color: #f5a599;
+    color: #cfafa7;
 }
 
 .card-img-top:hover {
