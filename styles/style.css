@@ -698,7 +698,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_about {
-    background-image: url("../images/about/sparklers.jpg");
+    background-image: url("../images/about/embracing_newlyweds_bw1.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -783,7 +783,7 @@ footer a:hover {
 /* Parallax styling */
 
 .parallax_contact {
-    background-image: url("../images/contact/embracing_newlyweds_bw1.jpg");
+    background-image: url("../images/contact/embracing_couple_garden_overlay.jpg");
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
