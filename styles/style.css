@@ -94,7 +94,7 @@ html, body {
 .btn-primary {
     background-color: #d9bab3;
     font-family: 'Fjalla One', sans-serif;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1rem;
     color: #fff !important;
     border: 1px solid #cfafa7;
     text-transform: uppercase;
@@ -102,9 +102,9 @@ html, body {
 }
 
 .btn-primary:hover {
-    background-color: #ff2f67;
-    color: #fff !important;
-    border: 1px solid #ff2f67;
+    background-color: #edc7b7;
+    color: #000 !important;
+    border: 1px solid #edc7b7;
 }
 
 .package_btn {
@@ -137,18 +137,6 @@ html, body {
 
 .intro_text {
     padding-top: 2rem;
-}
-
-.btn-outline-secondary {
-    text-transform: uppercase;
-    margin-top: 1.7rem;
-    padding: 0.6rem 1rem;
-}
-
-.btn-outline-secondary:hover {
-    background: #d4a99e;
-    color: #000;
-    border: none;
 }
 
 /* Portfolio section styling in index.html */
