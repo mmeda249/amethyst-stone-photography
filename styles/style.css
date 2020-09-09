@@ -147,31 +147,31 @@ html, body {
     margin: 0 auto;
 }
 
-.card-deck {
+.portfolio_cards {
     padding-left: 3rem;
     padding-right: 3rem;
 }
 
-.card-deck a {
+.portfolio_cards a {
     color: #4d4d4d;
     text-decoration: none;
 }
 
-.card {
+.services_card {
     border: none;
 }
 
-.card a:hover {
+.services_card a:hover {
     color: #cfafa7;
 }
 
-.card-img-top:hover {
+.services_img:hover {
     filter: brightness(110%);
 }
 
-.card-title {
+.services_title {
     text-transform: uppercase;
-    padding-top: 1rem;
+    padding-top: 0.7rem;
 }
 
 /* Parallax styling on index.html */
@@ -516,6 +516,7 @@ footer a:hover {
 .pricing_card {
     background: rgba(217, 187, 180, 0.2);
     border: none;
+    padding-top: 1.2rem;
 }
 
 .card_padding {
@@ -726,7 +727,7 @@ footer a:hover {
 
 .dreamteam_listing {
     background: rgba(217, 187, 180, 0.2);
-    padding: 1.5rem;
+    width: 300px;
 }
 
 #meet_team {
