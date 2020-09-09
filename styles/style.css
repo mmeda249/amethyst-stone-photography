@@ -359,7 +359,7 @@ footer a:hover {
 /* Extra small devices styling for services.html */
 
 .testimonial_body img {
-    width: 90%;
+    width: 100%;
     }
 
 .testimonial_body {
@@ -492,7 +492,7 @@ footer a:hover {
     background: rgba(217, 187, 180, 0);
     width: 100%;
     border: none;
-    margin-left: 4rem;
+    padding-left: 4rem;
     padding-right: 6rem;
 
 }
@@ -529,9 +529,10 @@ footer a:hover {
 }
 
 .pricing_deck {
-    padding-right: 1rem;
+    padding-right: 6rem;
     padding-left: 2rem;
     margin-bottom: 4rem;
+    margin-left: 2rem;
 }
 
 .pricing_card {
