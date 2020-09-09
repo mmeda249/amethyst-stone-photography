@@ -142,7 +142,7 @@ html, body {
 /* Portfolio section styling in index.html */
 
 .portfolio_section hr, .instagram_section hr  {
-    border: 1px solid #f5a599;
+    border: 1px solid #d9bab3;
     width: 100px;
     margin: 0 auto;
 }
@@ -457,6 +457,8 @@ footer a:hover {
 .service_styles {
     font-weight: 600;
     padding-top: 1rem;
+    border: transparent;
+    outline: none;
 }
 
 .photo_styles {
@@ -473,8 +475,9 @@ footer a:hover {
 }
 
 .testimonial_body {
-    background: rgba(217, 187, 180, 0.2);
+    background: rgba(217, 187, 180, 0);
     width: 100%;
+    border: none;
 }
 
 .testimonial_body img, .amethyst_section img {
@@ -706,6 +709,7 @@ footer a:hover {
 
 .amethyst_section {
     background:rgba(217, 187, 180, 0);
+    border: none;
 }
 
 .dreamteam_section hr {
@@ -728,6 +732,7 @@ footer a:hover {
 .dreamteam_listing {
     background: rgba(217, 187, 180, 0.2);
     width: 300px;
+    border: none;
 }
 
 #meet_team {
