@@ -57,7 +57,7 @@ html, body {
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav  .nav-link:hover {
-    color: #f5a599;
+    color: #d9bab3;
 }
 
 .nav-link, .dropdown-item {
@@ -73,7 +73,7 @@ html, body {
 }
 
 .dropdown-menu a:hover {
-    background-color: #ffddd7;
+    background-color: #f4e1dd;
 }
 
 /* Carousel styling */
@@ -234,7 +234,7 @@ html, body {
   /* Footer styling */
 
 footer {
-    background-color: #ffe9e6;
+    background-color: #f4e1dd;
     color: #6d6b6b;
     padding-top: 2.3rem;
     padding-bottom: 0.5rem;
@@ -277,7 +277,7 @@ footer a:hover {
 }
 
 .bottom_footer {
-    background-color: #ffe9e6;
+    background-color: #f4e1dd;
     color: #6d6b6b;
 }
 
