@@ -225,8 +225,8 @@ html, body {
   /* Footer styling */
 
 footer {
-    background-color: #f4e1dd;
-    color: #6d6b6b;
+    background-color: #312d2d;
+    color: #d9bab3;
     padding-top: 2.3rem;
     padding-bottom: 0.5rem;
 }
@@ -237,12 +237,12 @@ footer p {
 
 footer a {
     text-decoration: none;
-    color: #6d6b6b;
+    color: #d9bab3;
 }
 
 footer a:hover {
     text-decoration: none;
-    color: #eb688a;
+    color: #c09a91;
 }
 
 .social {
@@ -263,13 +263,13 @@ footer a:hover {
 
 .fa-envelope, .fa-phone-alt, .fa-map-marker-alt {
     font-size: 0.8rem;
-    color: #eb688a;
+    color: #b9b3b1;
     padding-right: 1.5rem;
 }
 
 .bottom_footer {
-    background-color: #f4e1dd;
-    color: #6d6b6b;
+    background-color: #312d2d;
+    color: #d9bab3;
 }
 
 .bottom_footer p {
@@ -807,7 +807,7 @@ footer a:hover {
 }
 
 .contact_section a {
-    color: rgb(192, 154, 145) !important;
+    color: #c09a91 !important;
     text-decoration: none;
 }
 
