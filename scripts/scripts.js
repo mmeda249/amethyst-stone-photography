@@ -1,5 +1,5 @@
 
-// Popup Gallery and Slideshow code
+// Pop-up Gallery and Slideshow code
 
 $(document).ready(function() {
 	$('.popup-gallery').magnificPopup({
