@@ -21,8 +21,9 @@ html, body {
 }
 
 .display-4 {
-    font-size: 6.5rem;
-    font-family: 'Holland', cursive;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 
 .section_heading h2, .breakdown_services h3, .sessions, .about_section h3, .dreamteam_section h3 {
@@ -449,7 +450,7 @@ footer a:hover {
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
-        text-shadow: 1px 1px 1px #000;
+        text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 .breakdown_services {
@@ -589,7 +590,7 @@ footer a:hover {
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
-        text-shadow: 1px 1px 1px #000;
+        text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 /* Gallery styling */
@@ -665,7 +666,7 @@ footer a:hover {
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
-        text-shadow: 1px 1px 1px #000;
+        text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 /* The code below is styling for portfolio_editorial.html */
@@ -689,7 +690,7 @@ footer a:hover {
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
-        text-shadow: 1px 1px 1px #000;
+        text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 /* The code below is styling for about.html */
@@ -712,7 +713,7 @@ footer a:hover {
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
-        text-shadow: 1px 1px 1px #000;
+        text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 .about_section {
@@ -797,7 +798,7 @@ footer a:hover {
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
-        text-shadow: 1px 1px 1px #000;
+        text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 .contact_section {
@@ -806,7 +807,7 @@ footer a:hover {
 }
 
 .contact_section a {
-    color: #f37c6a !important;
+    color: rgb(192, 154, 145) !important;
     text-decoration: none;
 }
 
