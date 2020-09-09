@@ -96,7 +96,7 @@ html, body {
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 0.1rem;
     color: #fff !important;
-    border: 1px solid #cfafa7;
+    border: 1px solid #d9bab3;
     text-transform: uppercase;
     padding: 0.7rem 1.3rem 0.7rem 1.3rem;
 }
@@ -445,7 +445,7 @@ footer a:hover {
 }
 
 .breakdown_services hr {
-    border: 1px solid #f5a599;
+    border: 1px solid #d9bab3;
     width: 100px;
     margin: 0 auto;
 }
@@ -462,7 +462,7 @@ footer a:hover {
 .photo_styles {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    color: #f5a599;
+    color: #d9bab3;
 }
 
 /* Testimonial styling */
@@ -497,7 +497,7 @@ footer a:hover {
 }
 
 .session_hr {
-    border: 1px solid #f5a599;
+    border: 1px solid #d9bab3;
     width: 100px;
     margin: 0 auto;
 }
@@ -514,7 +514,8 @@ footer a:hover {
 }
 
 .pricing_card {
-    border: 1px solid #eb688a;
+    background: rgba(217, 187, 180, 0.2);
+    border: none;
 }
 
 .card_padding {
@@ -522,9 +523,9 @@ footer a:hover {
 }
 
 .price {
-    color: #eb688a;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 2rem;
+    margin: auto;
 }
 
 .per_hour {
