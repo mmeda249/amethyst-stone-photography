@@ -20,6 +20,10 @@ body {
     font-style: normal;
 }
 
+p {
+    font-size: 14px;
+}
+
 .display-4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -863,6 +867,11 @@ footer a:hover {
         transform: translate(-50%, -50%);
         color: #fff;
         text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+.contact_intro {
+    margin-top: 2rem;
+    margin-bottom: 2.2rem;
 }
 
 .contact_wrapper {
