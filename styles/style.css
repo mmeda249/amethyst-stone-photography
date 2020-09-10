@@ -390,12 +390,6 @@ footer a:hover {
 /* Extra small devices styling for services.html */
 
 
-.pricing_deck {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    margin-bottom: 4rem;
-    }
-
 /* Extra small device styling for about.html */
 
 .dreamteam_cards {
@@ -519,10 +513,10 @@ footer a:hover {
 }
 
 .pricing_section {
-    display: block;
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
+    padding-bottom: 2rem;
 }
 
 .pricing_deck {
@@ -536,6 +530,11 @@ footer a:hover {
     background: rgba(217, 187, 180, 0.2);
     border: none;
     padding-top: 1.2rem;
+    margin-bottom: 1.8rem !important;
+}
+
+.card-subtitle {
+    padding-bottom: 1rem;
 }
 
 .price {
@@ -550,10 +549,11 @@ footer a:hover {
 
 .pricing_deck ul {
     list-style: none;
+    padding-top: 1rem;
 }
 
 .pricing_deck ul li {
-    padding-top: 1.5rem;
+    padding-top: 0.7rem;
 }
 
 .book_button {
