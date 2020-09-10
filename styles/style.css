@@ -470,18 +470,21 @@ footer a:hover {
 }
 
 .services_header {
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        text-shadow: 0.5px 0.5px 0.5px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 .breakdown_services {
     margin-top: 2rem;
     margin-bottom: 2.2rem;
-    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
 
 .breakdown_services hr, .contact_intro hr {
@@ -502,8 +505,6 @@ footer a:hover {
 }
 
 .photo_styles {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
     color: #d9bab3;
 }
 
