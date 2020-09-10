@@ -525,14 +525,17 @@ footer a:hover {
     max-width: 960px;
 }
 
+.pricing_deck {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    margin-bottom: 2rem;
+}
+
 .pricing_card {
     background: rgba(217, 187, 180, 0.2);
     border: none;
     padding-top: 1.2rem;
-}
-
-.card_padding {
-    margin-bottom: 2rem;
 }
 
 .price {
