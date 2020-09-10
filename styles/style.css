@@ -49,6 +49,7 @@ body {
     margin-left: auto;
     max-width: 960px;
     background: #fff !important;
+    border: none;
 }
 
 .navbar-brand img {
@@ -467,7 +468,10 @@ footer a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 2rem;
-   
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
 
 .services_header {
@@ -608,6 +612,10 @@ footer a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
 
 .weddings_header {
@@ -684,6 +692,10 @@ footer a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
 
 .engagements_header {
@@ -708,6 +720,10 @@ footer a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
 
 .editorial_header {
@@ -731,6 +747,10 @@ footer a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
 
 .about_header {
@@ -816,6 +836,10 @@ footer a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
 
 .contact_header {
