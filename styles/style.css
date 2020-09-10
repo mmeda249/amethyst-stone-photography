@@ -32,7 +32,7 @@ p {
 
 .section_heading h2, .breakdown_services h3, .sessions, .contact_intro h3, .about_section h3, .dreamteam_section h3 {
     font-family: 'Holland', cursive;
-    font-weight: 900;
+    font-weight: 400;
     font-size: 2.8rem;
     padding-bottom: 0.5rem;
     text-transform: capitalize;
