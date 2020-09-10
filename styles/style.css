@@ -368,10 +368,14 @@ footer a:hover {
         background-position: left;
     }
 
-    #quote_section i {
-        font-size: 1.5rem;
-        margin-top: 2.5rem;
+    .quote_section i {
+        font-size: 200%;
         padding-bottom: 1rem;
+    }
+
+    .testimonial_text i {
+        padding: 0;
+    font-size: 3rem;
     }
     
     .parallax_text p {
@@ -498,10 +502,8 @@ footer a:hover {
 
 /* Testimonial styling */
 
-/* Parallax styling on index.html */
-
 .testimonial {
-    background-image: url(../images/services/smiles1.jpg);
+    background-image: url(../images/services/newlyweds_embracing_lovingly.jpg);
     height: 450px;
     width: 100%;
     background-attachment: fixed;
@@ -513,20 +515,6 @@ footer a:hover {
 .testimonial_overlay {
     background: rgba(20, 20, 20, 0.35);
     height: 100%;
-}
-
-
-
-.parallax_text p {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #fff;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
 }
 
 .quote_source {
