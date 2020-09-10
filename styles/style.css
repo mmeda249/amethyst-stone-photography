@@ -477,6 +477,10 @@ footer a:hover {
     margin-top: 2.7rem;
 }
 
+.service_description {
+    text-align: left;
+}
+
 .service_styles {
     font-weight: 600;
     padding-top: 1rem;
