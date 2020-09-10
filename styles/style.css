@@ -152,7 +152,7 @@ body {
 .intro_text {
     padding-top: 2rem;
     padding-bottom: 0.7rem;
-    font-size: 1rem;
+    font-size: 14px;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -348,7 +348,6 @@ footer a:hover {
     }
 
     .intro_text {
-        
         padding-top: 0;
     }
 
@@ -408,11 +407,6 @@ footer a:hover {
     }
 
 /* Extra small device styling for about.html */
-
-.amethyst_section {
-    margin-left: 0.1rem !important;
-    margin-right: 0.1rem !important;
-}
 
 .dreamteam_cards {
     margin-left: 0.1rem !important;
@@ -528,7 +522,7 @@ footer a:hover {
 
 }
 
-.testimonial_body img, .amethyst_section img {
+.testimonial_body img {
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
@@ -755,7 +749,7 @@ footer a:hover {
 
 .about_header {
         position: absolute;
-        top: 60%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
@@ -765,6 +759,10 @@ footer a:hover {
 .about_section {
     background: rgba(217, 187, 180, 0.2);
     padding-bottom: 1rem;
+}
+
+.about_section h3 {
+    padding-top: 1rem;
 }
 
 .about_section hr {
@@ -777,8 +775,21 @@ footer a:hover {
     background:rgba(217, 187, 180, 0);
     border: none;
     padding-top: 1rem;
-    margin-left: 4rem;
-    margin-right: 2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.amethyst_section img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.amethyst_section p {
+    text-align: left;
 }
 
 .dreamteam_section hr {
