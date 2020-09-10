@@ -44,9 +44,16 @@ body {
     padding: 0.8rem;
 }
 
+.navbar-light {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    background: #fff !important;
+}
+
 .navbar-brand img {
-    width: 300px;
-    padding-left: 3rem;
+    width: 250px;
+    padding-left: 1rem;
 }
 
 .company_name {
@@ -79,15 +86,17 @@ body {
 
 /* Carousel styling */
 .carousel {
-    margin-top: 4rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
-
 
 /* Styling for divs with 'Padding' class */
 
 .padding {
-    padding-top: 3rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -121,9 +130,10 @@ body {
 }
 
 .intro_heading h1 {
-    font-weight: 400;
-    font-size: 1.3rem;
+    font-weight: 500;
+    font-size: 1rem;
     text-transform: uppercase;
+    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
@@ -139,8 +149,13 @@ body {
 }
 
 .intro_text {
-    padding: 2rem 2.3rem 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 0.7rem;
     font-size: 1rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
 
 /* Portfolio section styling in index.html */
@@ -152,13 +167,15 @@ body {
 }
 
 .portfolio_cards {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
 
 .portfolio_cards a {
     color: #4d4d4d;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .services_card {
@@ -195,8 +212,8 @@ body {
     height: 100%;
 }
 
-#quote_section i {
-    font-size: 3.5rem;
+.parallax_text i {
+    font-size: 4rem;
     padding-bottom: 1.7rem;
     padding-top: 5rem;
     color: #fff;
@@ -204,11 +221,15 @@ body {
 }
 
 .parallax_text p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
     color: #fff;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
 }
 
 .quote_source {
@@ -218,7 +239,15 @@ body {
 /* Instagram section styling */
 
 .instagram_section {
-    padding: 3.5rem 5rem;
+    padding: 3.5rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+.insta_card {
+    border: none;
 }
 
 .insta_post:hover {
@@ -236,6 +265,10 @@ footer {
 
 footer p {
     font-size: 0.75rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
 }
 
 footer a {
@@ -261,7 +294,8 @@ footer a:hover {
 .footer_contact {
     line-height: 1.9;
     text-align: justify;
-    padding-left: 3.8rem;
+    display: flex;
+
 }
 
 .fa-envelope, .fa-phone-alt, .fa-map-marker-alt {
@@ -295,18 +329,9 @@ footer a:hover {
         padding: 0.5rem;
     }
 
-    #body_wrapper {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
     .padding {
         padding-top: 2rem;
         padding-bottom: 3rem;
-    }
-
-    .intro {
-        padding-top: 2.5rem;
     }
 
     .intro_heading h1 {
@@ -322,7 +347,7 @@ footer a:hover {
     }
 
     .intro_text {
-        font-size: 91%;
+        
         padding-top: 0;
     }
 
@@ -410,10 +435,6 @@ footer a:hover {
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) {    
      
-    #body_wrapper {
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
 
     .services_card {
     padding-bottom: 1.5rem;
@@ -429,11 +450,6 @@ footer a:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
-    #body_wrapper {
-        margin-left: 7rem;
-        margin-right: 7rem;
-    }
 
     .services_card {
         padding-bottom: 1.5rem;
