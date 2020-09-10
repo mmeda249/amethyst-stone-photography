@@ -96,7 +96,7 @@ body {
 
 .padding {
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
 }
 
 
@@ -243,6 +243,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
     max-width: 960px;
 }
 
@@ -295,7 +296,6 @@ footer a:hover {
     line-height: 1.9;
     text-align: justify;
     display: flex;
-
 }
 
 .fa-envelope, .fa-phone-alt, .fa-map-marker-alt {
@@ -305,7 +305,7 @@ footer a:hover {
 }
 
 .bottom_footer {
-    background-color: #312d2d;
+    background-color: #292121;
     color: #d9bab3;
 }
 
@@ -436,12 +436,8 @@ footer a:hover {
 @media only screen and (min-width: 576px) {    
      
 
-    .services_card {
-    padding-bottom: 1.5rem;
-    }
-
     .parallax_text {
-        font-size: 1.3rem;
+        width: 100%;
     }
 
 /* Small devices styling for services.html */
@@ -450,10 +446,6 @@ footer a:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
-    .services_card {
-        padding-bottom: 1.5rem;
-    }
 
  }
 
