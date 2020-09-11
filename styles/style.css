@@ -586,7 +586,7 @@ footer a:hover {
 
 .weddings_header {
         position: absolute;
-        top: 60%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
@@ -602,7 +602,9 @@ footer a:hover {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0 4px;
-    margin: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
   }
 
   #gallery_section img:hover {
@@ -666,7 +668,7 @@ footer a:hover {
 
 .engagements_header {
         position: absolute;
-        top: 60%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
@@ -694,7 +696,7 @@ footer a:hover {
 
 .editorial_header {
         position: absolute;
-        top: 60%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
