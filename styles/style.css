@@ -212,24 +212,27 @@ p {
     background-size: cover;
 }
 
+.parallax_text, .testimonial_text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    padding-top: 4rem;
+}
+
 .parallax_text i, .testimonial_text i {
     font-size: 4rem;
-    padding-bottom: 1.7rem;
-    padding-top: 5rem;
     color: #fff;
     opacity: 0.7;
+    padding-bottom: 1.2rem;
 }
 
 .parallax_text p, .testimonial_text p {
     font-size: 1.2rem;
     font-weight: 400;
     color: #fff;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .quote_source {
@@ -363,19 +366,12 @@ footer a:hover {
         background-position: left;
     }
 
-    .quote_section i {
-        font-size: 200%;
-        padding-bottom: 1rem;
+    .parallax_text p, .testimonial_text p {
+        font-size: 110%;
     }
 
-    .testimonial_text i {
-        font-size: 3rem;
-    }
-    
-    .parallax_text p {
-        font-size: 100%;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+    .parallax_text i, .testimonial_text i {
+        font-size: 250%;
     }
 
     .instagram_section {
@@ -402,19 +398,19 @@ footer a:hover {
 
 /* General Extra Small devices styling for feeatures appearing on multiple web pages */
 
-.display-4 {
-    font-size: 300%;
-    }
+  .display-4 {
+      font-size: 250%;
+      }
+  
+  .engagements_header h1 {
+      font-size: 190%;
+  }
 
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) {    
      
-
-    .parallax_text {
-        width: 100%;
-    }
 
 /* Small devices styling for services.html */
 
@@ -701,6 +697,9 @@ footer a:hover {
         transform: translate(-50%, -50%);
         color: #fff;
         text-shadow: 0.5px 0.5px 0.5px #000;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 960px;
 }
 
 /* The code below is styling for about.html */
