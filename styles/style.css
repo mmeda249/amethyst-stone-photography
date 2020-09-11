@@ -866,20 +866,17 @@ footer a:hover {
     text-transform: lowercase;
 }
 
-/* might remove the form code below */
-
-form {
-    transition: all 4s ease-in-out;
-}
-
-/* code above may be removed */
-
 .form-control {
     margin-bottom: 1.5rem;
     border-radius: 0;
     background: #f2f0f0;
 }
 
+#my-form-status {
+    color: rgb(28, 108, 27);
+    font-size: 15px;
+    font-weight: 500;
+}
 .address_section {
     margin-bottom: 3rem;
 }

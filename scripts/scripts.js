@@ -27,18 +27,18 @@ $(document).ready(function() {
     
     var form = document.getElementById("my-form");
     var button = document.getElementById("my-form-button");
-    var status = document.getElementById("my-form-status");
+	var status = document.getElementById("my-form-status");
 
     // Success and Error functions for after the form is submitted
     
     function success() {
       form.reset();
       button.style = "display: none ";
-      status.innerHTML = "Thanks!";
+      status.innerHTML = " &#10003 Thanks! We'll be in touch soon!";
     }
 
     function error() {
-      status.innerHTML = "Oops! There was a problem.";
+      status.innerHTML = " &#10005 Oops! There was a problem.";
     }
 
     // handle the form submission event
