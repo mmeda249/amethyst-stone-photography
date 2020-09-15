@@ -84,16 +84,24 @@ p {
     font-size: 1rem !important;
 }
 
+.nav-link {
+    text-align: center;
+}
+
 .navbar-toggler {
     border: none;
 }
-
 .dropdown-menu {
     border: none;
+    text-align: center !important;
 }
 
 .dropdown-menu a:hover {
     background-color: #f4e1dd;
+}
+
+.dropdown-item {
+    color: #8e8c8c;
 }
 
 /* Carousel styling */
