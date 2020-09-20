@@ -113,6 +113,30 @@ p {
     max-width: 960px;
 }
 
+/* Back to top button */
+
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #d9bab3;
+    opacity: 0.9;
+    color: #fff; 
+    cursor: pointer; 
+    padding: 0.1rem 0.6rem;
+    border-radius: 50%; 
+    font-size: 1.5rem;
+  }
+  
+  #topBtn:hover {
+    background-color: #edc7b7;
+    color: #000;
+  }
+
 /* Primary button styling */
 
 .btn-primary {

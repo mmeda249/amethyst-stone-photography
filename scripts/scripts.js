@@ -1,3 +1,24 @@
+// Back-to-Top button
+mybutton = document.getElementById("topBtn");
+
+// When the user scrolls 600px down from the top of the page, the button will appear
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// Scrolls back to top of page when user clicks the button
+function topFunction() {
+  document.documentElement.scrollTop = 0; // For Chrome, Internet Explorer & Firefox
+  document.body.scrollTop = 0; // For Safari
+}
+
+
 // AJAX for contact form submissions
 
   window.addEventListener("DOMContentLoaded", function() {
