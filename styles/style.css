@@ -44,11 +44,6 @@ p {
 
 /* Styling for divs with 'Padding' class */
 
-.padding {
-    padding-top: 2rem;
-    padding-bottom: 2.5rem;
-}
-
 /* Navigation styling */
 
 .navbar {
@@ -179,8 +174,7 @@ p {
 }
 
 .intro_content {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding: 2rem 4rem;
 }
 
 .intro hr {
@@ -200,6 +194,11 @@ p {
 }
 
 /* Portfolio Section for index.html */
+
+.portfolio_section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 .portfolio_section hr, .instagram_section hr  {
     border: 1px solid #d9bab3;
@@ -240,7 +239,7 @@ p {
 
 .parallax {
     background-image: url(../images/parallax/necklace_overlay.jpg);
-    height: 450px;
+    min-height: 350px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -253,7 +252,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 
 .parallax_text i, .testimonial_text i {
@@ -415,7 +414,7 @@ footer a:hover {
 
 .testimonial {
     background-image: url(../images/services/newlyweds_embracing_lovingly1.jpg);
-    height: 450px;
+    min-height: 350px;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
