@@ -1,0 +1,892 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #4d4d4d;
+}
+
+@font-face {
+    font-family: 'Holland';
+    src: url('./fonts/holland-font/Holland.otf'); 
+    src: url('./fonts/holland-font/Holland.ttf');
+    src: url('./fonts/holland-font/Holland.woff');
+    src: url('./fonts/holland-font/Holland.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-size: 14px;
+}
+
+.display-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.section_heading h2, .breakdown_services h3, .sessions, .contact_intro h3, .about_section h3, .dreamteam_section h3 {
+    font-family: 'Holland', cursive;
+    font-weight: 400;
+    font-size: 2.8rem;
+    padding-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.section_heading {
+    padding-bottom: 3.5rem;
+}
+
+/* Navigation styling */
+
+.navbar {
+    padding: 0.8rem;
+}
+
+.navbar-light {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    background: #fff !important;
+    border: none;
+}
+
+.navbar-brand img {
+    width: 250px;
+    padding-left: 1rem;
+}
+
+.company_name {
+    font-weight: bold;
+}
+
+.navbar-nav li {
+    padding-right: 1.3rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav  .nav-link:hover {
+    color: #bfa19a;
+}
+
+.nav-link, .dropdown-item {
+    font-size: 1rem !important;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.navbar-toggler {
+    border: none;
+}
+.dropdown-menu {
+    border: none;
+    text-align: center !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f4e1dd;
+}
+
+.dropdown-item {
+    color: #8e8c8c;
+}
+
+/* Carousel styling */
+
+.carousel {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+/* Back to top button */
+
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #d9bab3;
+    opacity: 0.9;
+    color: #fff; 
+    cursor: pointer; 
+    padding: 0.1rem 0.6rem;
+    border-radius: 50%; 
+    font-size: 1.5rem;
+  }
+  
+  #topBtn:hover {
+    background-color: #edc7b7;
+    color: #000;
+  }
+
+/* Primary button styling */
+
+.btn-primary {
+    background-color: #d9bab3;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.1rem;
+    color: #fff !important;
+    border: 1px solid #d9bab3;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 0.7rem 1.3rem 0.7rem 1.3rem;
+}
+
+.btn-primary:hover {
+    background-color: #edc7b7;
+    color: #4d4d4d !important;
+    border: 1px solid #edc7b7;
+}
+
+.btn-primary:active {
+    background: #edc7b7 !important;
+}
+
+.package_btn {
+    margin-bottom: 0.7rem;
+}
+
+/* Introduction Section for index.html */
+
+.intro {
+    background: rgba(217, 187, 180, 0.2);
+}
+
+.intro_heading h1 {
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.intro_content {
+    padding: 2rem 4rem;
+}
+
+.intro hr {
+    border: 1px solid #d9bab3;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.intro_text {
+    padding-top: 2rem;
+    padding-bottom: 0.7rem;
+    font-size: 14px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+/* Portfolio Section for index.html */
+
+.portfolio_section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.portfolio_section hr, .instagram_section hr  {
+    border: 1px solid #d9bab3;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.portfolio_cards {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.portfolio_cards a {
+    color: #4d4d4d;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.services_card {
+    border: none;
+}
+
+.services_card a:hover {
+    color: #cfafa7;
+}
+
+.services_img:hover {
+    filter: brightness(110%);
+}
+
+.services_title {
+    text-transform: uppercase;
+    padding-top: 0.7rem;
+}
+
+/* Parallax for index.html */
+
+.parallax {
+    background-image: url(../images/parallax/necklace_overlay.jpg);
+    min-height: 350px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_text, .testimonial_text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    padding-top: 3rem;
+}
+
+.parallax_text i, .testimonial_text i {
+    font-size: 4rem;
+    color: #fff;
+    opacity: 0.7;
+    padding-bottom: 1.2rem;
+}
+
+.parallax_text p, .testimonial_text p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.quote_source {
+    font-style: italic;
+}
+
+/* Instagram Section for index.html */
+
+.instagram_section {
+    padding: 3.5rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    max-width: 960px;
+}
+
+.insta_card {
+    border: none;
+}
+
+.insta_post:hover {
+    filter: brightness(110%);
+}
+
+/* Footer styling */
+
+footer {
+    background-color: #312d2d;
+    color: #d9bab3;
+    padding-top: 2.3rem;
+    padding-bottom: 0.5rem;
+}
+
+footer p {
+    font-size: 0.75rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d9bab3;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #c09a91;
+}
+
+.social {
+    padding-top: 0.3rem;
+    padding-bottom: 1.2rem;
+}
+
+.fa-instagram, .fa-facebook-f, .fa-pinterest-p, .fa-twitter {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+}
+
+.footer_contact {
+    line-height: 1.9;
+    text-align: justify;
+    display: flex;
+}
+
+.fa-envelope, .fa-phone-alt, .fa-map-marker-alt {
+    font-size: 0.8rem;
+    color: #d9bab3;
+    padding-right: 1.5rem;
+}
+
+.bottom_footer {
+    background-color: #292121;
+    color: #d9bab3;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* The code below is styling for services.html */
+
+.parallax_services {
+    background-image: url("../images/services/fall_bride_overlay.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.services_header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+.breakdown_services {
+    margin-top: 2rem;
+    margin-bottom: 2.2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.breakdown_services hr, .contact_intro hr {
+    border: 1px solid #d9bab3;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.service_description, .contact_description {
+    margin-top: 2.7rem;
+}
+
+.service_description {
+    text-align: left;
+}
+
+.service_styles {
+    font-weight: 600;
+    padding-top: 1rem;
+    border: transparent;
+    outline: none;
+}
+
+.photo_styles {
+    color: #d9bab3;
+}
+
+/* Testimonial Section for services.html */
+
+.testimonial {
+    background-image: url(../images/services/newlyweds_embracing_lovingly1.jpg);
+    min-height: 350px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Pricing Section for services.html */
+
+.sessions {
+    padding-top: 3rem;
+}
+
+.session_hr {
+    border: 1px solid #d9bab3;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.pricing_section {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-bottom: 2rem;
+}
+
+.pricing_deck {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    margin-bottom: 2rem;
+}
+
+.pricing_card {
+    background: rgba(217, 187, 180, 0.2);
+    border: none;
+    padding-top: 1.2rem;
+    margin-bottom: 1.8rem !important;
+}
+
+.card-subtitle {
+    padding-bottom: 1rem;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.per_hour {
+    font-size: 1rem;
+}
+
+.pricing_deck ul {
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.pricing_deck ul li {
+    padding-top: 0.7rem;
+}
+
+.book_button {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+/* The code below is styling for portfolio_weddings.html */
+
+/* Parallax styling for portfolio_weddings.html */
+
+.parallax_weddings {
+    background-image: url("../images/portfolio/weddings/kiss_field_overlay.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.weddings_header {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+/* Gallery styling for all portfolio pages (portfolio_weddings.html, portfolio_engagements.html, portfolio_editorial.html) */
+
+
+#gallery_section {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+  }
+
+  #gallery_section img:hover {
+      cursor: pointer;
+  }
+  
+  /* For Galleries - Create four equal columns next to each other */
+
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .column img:hover {
+    filter: brightness(110%);
+  }
+
+  /* Responsive layout for galleries - creates a two column-layout instead of four columns */
+
+  @media only screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout for galleries - makes the two columns stack on top of each other instead of next to each other */
+
+  @media only screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+/* The code below is styling for portfolio_engagements.html */
+
+/* Parallax Section for portfolio_engagements.html*/
+
+.parallax_engagements {
+    background-image: url("../images/portfolio/engagements/engaged_rednails_overlay.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.engagements_header {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+/* The code below is styling for portfolio_editorial.html */
+
+/* Parallax Section for portfolio_editorial.html */
+
+.parallax_editorial {
+    background-image: url("../images/portfolio/editorial/model_behind_tree_overlay.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.editorial_header {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-shadow: 0.5px 0.5px 0.5px #000;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 960px;
+}
+
+/* The code below is styling for about.html */
+
+/* Parallax Section for about.html */
+
+.parallax_about {
+    background-image: url("../images/about/embracing_newlyweds_bw1.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.about_header {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+.about_section {
+    background: rgba(217, 187, 180, 0.2);
+    padding-bottom: 1rem;
+}
+
+.about_section h3 {
+    padding-top: 1rem;
+}
+
+.about_section hr {
+        width: 100px;
+        border: 1px solid #d9bab3;
+        margin: 0 auto 2rem;
+}
+
+.amethyst_section {
+    background:rgba(217, 187, 180, 0);
+    border: none;
+    padding-top: 1rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.amethyst_section img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.amethyst_section p {
+    text-align: left;
+}
+
+#meet_team {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.dreamteam_section hr {
+    width: 100px;
+    border: 1px solid #d9bab3;
+    margin: 1rem auto 1.8rem !important;
+}
+
+.dreamteam_section {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.dreamteam_listing hr {
+    width: 100px;
+    border: 1px solid #d9bab3;
+    margin: 0 auto;
+}
+
+.dreamteam_listing {
+    background: rgba(217, 187, 180, 0.2);
+    border: none;
+    margin: 2rem auto;
+}
+
+.dreamteam_listing p {
+    font-size: 15px;
+}
+
+#meet_team {
+    margin-bottom: 4rem;
+}
+
+.contact_team {
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact_btn {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* The code below is styling for contact.html */
+
+/* Parallax Section for contact.html */
+
+.parallax_contact {
+    background-image: url("../images/contact/embracing_couple_garden_overlay.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.contact_header {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+.contact_intro {
+    margin-top: 2rem;
+    margin-bottom: 2.2rem;
+}
+
+.contact_wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.contact_section {
+    margin-top: 2.5rem;
+}
+
+.contact_section a {
+    color: #bfa19a !important;
+    text-decoration: none;
+}
+
+.lets_chat {
+    text-transform: lowercase;
+}
+
+.form-control {
+    margin-bottom: 1.5rem;
+    border-radius: 0;
+    background: #f2f0f0;
+}
+
+#my-form-status {
+    color: rgb(28, 108, 27);
+    font-size: 15px;
+    font-weight: 500;
+}
+.address_section {
+    margin-bottom: 3rem;
+}
+
+/* Responsive Breakpoints - Extra small devices (portrait phones, less than 576px) */
+
+@media only screen and (max-width: 576px) {
+
+/* Responsive layout - General Extra Small devices styling for features appearing on multiple web pages */
+
+  .display-4 {
+    font-size: 250%;
+    }
+
+/* Responsive layout for index.html */
+
+    .navbar-brand img {
+        width: 210px;
+        padding-left: 1rem; 
+    }
+
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .padding {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .intro_heading h1 {
+        font-size: 110%;
+    }
+
+    .intro_content {
+        padding: 0;
+    }
+
+    .intro_heading {
+        padding-bottom: 1.8rem;
+    }
+
+    .intro_text {
+        padding-top: 0;
+    }
+
+    .btn-outline-secondary {
+        margin-top: 1.1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .section_heading {
+        padding-bottom: 3.3rem;
+    }
+
+    .parallax {
+        background-position: left;
+    }
+
+    .parallax_text p, .testimonial_text p {
+        font-size: 110%;
+    }
+
+    .parallax_text i, .testimonial_text i {
+        font-size: 250%;
+    }
+
+    .instagram_section {
+        padding: 2rem;
+    }
+
+    .bottom_footer p {
+        width: 93%;
+        margin: auto;
+    }
+
+/* Responsive layout - Extra small device styling for portfolio_engagements.html */
+
+  .engagements_header h1 {
+      font-size: 190%;
+  }
+
+/* Responsive layout - Extra small device styling for about.html */
+
+  .dreamteam_cards {
+      margin-left: 0.1rem !important;
+      margin-right: 0.1rem !important;
+  }
+
+}

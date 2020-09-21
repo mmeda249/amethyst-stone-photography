@@ -1,0 +1,84 @@
+/* Parallax styling for portfolio_weddings.html */
+
+.parallax_weddings {
+    background-image: url("../images/portfolio/weddings/kiss_field_overlay.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.weddings_header {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+/* Gallery styling for all portfolio pages (portfolio_weddings.html, portfolio_engagements.html, portfolio_editorial.html) */
+
+
+#gallery_section {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+  }
+
+  #gallery_section img:hover {
+      cursor: pointer;
+  }
+  
+  /* For Galleries - Create four equal columns next to each other */
+
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .column img:hover {
+    filter: brightness(110%);
+  }
+
+  /* Responsive layout for galleries - creates a two column-layout instead of four columns */
+
+  @media only screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout for galleries - makes the two columns stack on top of each other instead of next to each other */
+
+  @media only screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  

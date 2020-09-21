@@ -1,0 +1,66 @@
+/* The code below is styling for contact.html */
+
+/* Parallax Section for contact.html */
+
+.parallax_contact {
+    background-image: url("../images/contact/embracing_couple_garden_overlay.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.contact_header {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+.contact_intro {
+    margin-top: 2rem;
+    margin-bottom: 2.2rem;
+}
+
+.contact_wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.contact_section {
+    margin-top: 2.5rem;
+}
+
+.contact_section a {
+    color: #bfa19a !important;
+    text-decoration: none;
+}
+
+.lets_chat {
+    text-transform: lowercase;
+}
+
+.form-control {
+    margin-bottom: 1.5rem;
+    border-radius: 0;
+    background: #f2f0f0;
+}
+
+#my-form-status {
+    color: rgb(28, 108, 27);
+    font-size: 15px;
+    font-weight: 500;
+}
+.address_section {
+    margin-bottom: 3rem;
+}

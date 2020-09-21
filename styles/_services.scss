@@ -1,0 +1,132 @@
+/* The code below is styling for services.html */
+
+.parallax_services {
+    background-image: url("../images/services/fall_bride_overlay.jpg");
+    min-height: 500px; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.services_header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+.breakdown_services {
+    margin-top: 2rem;
+    margin-bottom: 2.2rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+.breakdown_services hr, .contact_intro hr {
+    border: 1px solid #d9bab3;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.service_description, .contact_description {
+    margin-top: 2.7rem;
+}
+
+.service_description {
+    text-align: left;
+}
+
+.service_styles {
+    font-weight: 600;
+    padding-top: 1rem;
+    border: transparent;
+    outline: none;
+}
+
+.photo_styles {
+    color: #d9bab3;
+}
+
+/* Testimonial Section for services.html */
+
+.testimonial {
+    background-image: url(../images/services/newlyweds_embracing_lovingly1.jpg);
+    min-height: 350px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Pricing Section for services.html */
+
+.sessions {
+    padding-top: 3rem;
+}
+
+.session_hr {
+    border: 1px solid #d9bab3;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.pricing_section {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-bottom: 2rem;
+}
+
+.pricing_deck {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    margin-bottom: 2rem;
+}
+
+.pricing_card {
+    background: rgba(217, 187, 180, 0.2);
+    border: none;
+    padding-top: 1.2rem;
+    margin-bottom: 1.8rem !important;
+}
+
+.card-subtitle {
+    padding-bottom: 1rem;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.per_hour {
+    font-size: 1rem;
+}
+
+.pricing_deck ul {
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.pricing_deck ul li {
+    padding-top: 0.7rem;
+}
+
+.book_button {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
