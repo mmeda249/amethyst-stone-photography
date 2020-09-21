@@ -1,36 +1,48 @@
-/* The code below is styling for services.html */
-
-.parallax_services {
-    background-image: url("../images/services/fall_bride_overlay.jpg");
+@mixin pageParallax {
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 2rem;
     display: block;
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
 }
 
+@mixin pageHeader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+@mixin maxWidth {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+/* The code below is styling for services.html */
+
+.parallax_services {
+    background-image: url("../images/services/fall_bride_overlay.jpg");
+    margin-bottom: 2rem;
+    @include pageParallax();
+}
+
 .services_header {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-shadow: 0.5px 0.5px 0.5px #000;
+    @include pageHeader();
 }
 
 .breakdown_services {
     margin-top: 2rem;
     margin-bottom: 2.2rem;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
+    @include maxWidth();
 }
 
 .breakdown_services hr, .contact_intro hr {
@@ -83,16 +95,12 @@
 }
 
 .pricing_section {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
+    @include maxWidth();
     padding-bottom: 2rem;
 }
 
 .pricing_deck {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
+    @include maxWidth();
     margin-bottom: 2rem;
 }
 

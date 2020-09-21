@@ -1,27 +1,42 @@
-/* Parallax styling for portfolio_weddings.html */
-
-.parallax_weddings {
-    background-image: url("../images/portfolio/weddings/kiss_field_overlay.jpg");
+@mixin pageParallax {
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 2rem;
     display: block;
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
 }
 
-.weddings_header {
+@mixin pageHeader {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
         text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+@mixin maxWidth {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+/* Parallax styling */
+
+.parallax_weddings {
+    background-image: url("../images/portfolio/weddings/kiss_field_overlay.jpg");
+    margin-bottom: 2rem;
+    display: block;
+    @include pageParallax();
+}
+
+.weddings_header {
+       @include pageHeader();
 }
 
 /* Gallery styling for all portfolio pages (portfolio_weddings.html, portfolio_engagements.html, portfolio_editorial.html) */
@@ -33,9 +48,7 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0 4px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
+    @include maxWidth();
   }
 
   #gallery_section img:hover {
@@ -81,4 +94,3 @@
     }
   }
 
-  

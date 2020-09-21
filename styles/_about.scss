@@ -1,9 +1,4 @@
-/* The code below is styling for about.html */
-
-/* Parallax Section for about.html */
-
-.parallax_about {
-    background-image: url("../images/about/embracing_newlyweds_bw1.jpg");
+@mixin pageParallax {
     min-height: 500px; 
     position: relative;
     background-attachment: fixed;
@@ -16,13 +11,30 @@
     max-width: 960px;
 }
 
-.about_header {
+@mixin pageHeader {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: #fff;
         text-shadow: 0.5px 0.5px 0.5px #000;
+}
+
+@mixin maxWidth {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+/* Parallax Section for about.html */
+
+.parallax_about {
+    background-image: url("../images/about/embracing_newlyweds_bw1.jpg");
+    @include pageParallax();
+}
+
+.about_header {
+    @include pageHeader();
 }
 
 .about_section {
@@ -45,9 +57,7 @@
     border: none;
     padding-top: 1rem;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
+    @include maxWidth();
 }
 
 .amethyst_section img {
@@ -63,9 +73,7 @@
 
 #meet_team {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
+    @include maxWidth();
 }
 
 .dreamteam_section hr {

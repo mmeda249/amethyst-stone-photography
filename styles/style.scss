@@ -1,11 +1,3 @@
-@import './about';
-@import './contact';
-@import './editorial';
-@import './engagements';
-@import './services';
-@import './weddings';
-
-
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +8,19 @@ body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
     color: #4d4d4d;
+}
+
+@import './about';
+@import './contact';
+@import './editorial';
+@import './engagements';
+@import './services';
+@import './weddings';
+
+@mixin maxWidth {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
 
 @font-face {
@@ -35,9 +40,7 @@ body {
 }
 
 .navbar-light {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
+    @include maxWidth();
     background: #fff !important;
     border: none;
 }
@@ -87,9 +90,7 @@ body {
 
 .carousel {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
+    @include maxWidth();
 }
 
 /* Back to top button */
@@ -196,9 +197,7 @@ p {
     padding-bottom: 0.7rem;
     font-size: 14px;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
+    @include maxWidth();
 }
 
 /* Portfolio Section for index.html */
@@ -215,9 +214,7 @@ p {
 }
 
 .portfolio_cards {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
+    @include maxWidth();
 }
 
 .portfolio_cards a {
@@ -257,10 +254,8 @@ p {
 
 .parallax_text, .testimonial_text {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
     padding-top: 3rem;
+    @include maxWidth();
 }
 
 .parallax_text i, .testimonial_text i {
@@ -287,10 +282,8 @@ p {
 .instagram_section {
     padding: 3.5rem 0;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 2rem;
-    max-width: 960px;
+    @include maxWidth();
 }
 
 .insta_card {
@@ -313,9 +306,7 @@ footer {
 footer p {
     font-size: 0.75rem;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
+    @include maxWidth();
 }
 
 footer a {
