@@ -114,6 +114,7 @@ body {
     padding: 0.1rem 0.6rem;
     border-radius: 50%; 
     font-size: 1.5rem;
+    scroll-behavior: smooth;
   }
   
   #topBtn:hover {
@@ -142,6 +143,11 @@ body {
 
 .btn-primary:active {
     background: #edc7b7 !important;
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .package_btn {
