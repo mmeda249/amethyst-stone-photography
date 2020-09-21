@@ -1,3 +1,5 @@
+/* Mixins */
+
 @mixin pageParallax {
     min-height: 500px; 
     position: relative;
@@ -12,12 +14,12 @@
 }
 
 @mixin pageHeader {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        text-shadow: 0.5px 0.5px 0.5px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 @mixin maxWidth {
@@ -26,7 +28,7 @@
     max-width: 960px;
 }
 
-/* Parallax Section for about.html */
+/* Parallax Section */
 
 .parallax_about {
     background-image: url("../images/about/embracing_newlyweds_bw1.jpg");
@@ -36,6 +38,8 @@
 .about_header {
     @include pageHeader();
 }
+
+/* About Amethyst Section */
 
 .about_section {
     background: rgba(217, 187, 180, 0.2);
@@ -47,9 +51,9 @@
 }
 
 .about_section hr {
-        width: 100px;
-        border: 1px solid #d9bab3;
-        margin: 0 auto 2rem;
+    width: 100px;
+    border: 1px solid #d9bab3;
+    margin: 0 auto 2rem;
 }
 
 .amethyst_section {
@@ -70,6 +74,8 @@
 .amethyst_section p {
     text-align: left;
 }
+
+/* About Team */
 
 #meet_team {
     display: block;

@@ -1,3 +1,5 @@
+/* Mixins */
+
 @mixin pageParallax {
     min-height: 500px; 
     position: relative;
@@ -12,12 +14,12 @@
 }
 
 @mixin pageHeader {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        text-shadow: 0.5px 0.5px 0.5px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 @mixin maxWidth {
@@ -26,7 +28,7 @@
     max-width: 960px;
 }
 
-/* Parallax Section for contact.html */
+/* Parallax Section */
 
 .parallax_contact {
     background-image: url("../images/contact/embracing_couple_garden_overlay.jpg");
@@ -36,6 +38,8 @@
 .contact_header {
     @include pageHeader();
 }
+
+/* Contact Intro */
 
 .contact_intro {
     margin-top: 2rem;
@@ -59,6 +63,8 @@
 .lets_chat {
     text-transform: lowercase;
 }
+
+/* Contact Form */
 
 .form-control {
     margin-bottom: 1.5rem;

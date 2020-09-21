@@ -10,7 +10,9 @@ body {
   color: #4d4d4d;
 }
 
-/* Parallax Section for about.html */
+/* Imported SCSS Files */
+/* Mixins */
+/* Parallax Section */
 .parallax_about {
   background-image: url("../images/about/embracing_newlyweds_bw1.jpg");
   min-height: 500px;
@@ -35,6 +37,7 @@ body {
   text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
+/* About Amethyst Section */
 .about_section {
   background: rgba(217, 187, 180, 0.2);
   padding-bottom: 1rem;
@@ -72,6 +75,7 @@ body {
   text-align: left;
 }
 
+/* About Team */
 #meet_team {
   display: block;
   margin-right: auto;
@@ -129,7 +133,8 @@ body {
   }
 }
 
-/* Parallax Section for contact.html */
+/* Mixins */
+/* Parallax Section */
 .parallax_contact {
   background-image: url("../images/contact/embracing_couple_garden_overlay.jpg");
   min-height: 500px;
@@ -154,6 +159,7 @@ body {
   text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
+/* Contact Intro */
 .contact_intro {
   margin-top: 2rem;
   margin-bottom: 2.2rem;
@@ -179,6 +185,7 @@ body {
   text-transform: lowercase;
 }
 
+/* Contact Form */
 .form-control {
   margin-bottom: 1.5rem;
   border-radius: 0;
@@ -224,6 +231,7 @@ body {
   max-width: 960px;
 }
 
+/* Mixins */
 /* Parallax Section for portfolio_engagements.html*/
 .parallax_engagements {
   background-image: url("../images/portfolio/engagements/engaged_rednails_overlay.jpg");
@@ -257,7 +265,8 @@ body {
   }
 }
 
-/* The code below is styling for services.html */
+/* Mixins */
+/* Main Parallax section */
 .parallax_services {
   background-image: url("../images/services/fall_bride_overlay.jpg");
   margin-bottom: 2rem;
@@ -283,6 +292,7 @@ body {
   text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
+/* Services details */
 .breakdown_services {
   margin-top: 2rem;
   margin-bottom: 2.2rem;
@@ -317,7 +327,7 @@ body {
   color: #d9bab3;
 }
 
-/* Testimonial Section for services.html */
+/* Testimonial Section */
 .testimonial {
   background-image: url(../images/services/newlyweds_embracing_lovingly1.jpg);
   min-height: 350px;
@@ -328,7 +338,7 @@ body {
   background-size: cover;
 }
 
-/* Pricing Section for services.html */
+/* Pricing Section */
 .sessions {
   padding-top: 3rem;
 }
@@ -388,6 +398,7 @@ body {
   margin-bottom: 1.3rem;
 }
 
+/* Mixins */
 /* Parallax styling */
 .parallax_weddings {
   background-image: url("../images/portfolio/weddings/kiss_field_overlay.jpg");
@@ -473,6 +484,7 @@ body {
   }
 }
 
+/* Mixins */
 @font-face {
   font-family: 'Holland';
   src: url("./fonts/holland-font/Holland.otf");

@@ -1,3 +1,5 @@
+/* Mixins */
+
 @mixin pageParallax {
     min-height: 500px; 
     position: relative;
@@ -12,12 +14,12 @@
 }
 
 @mixin pageHeader {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        text-shadow: 0.5px 0.5px 0.5px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 @mixin maxWidth {
@@ -36,11 +38,10 @@
 }
 
 .weddings_header {
-       @include pageHeader();
+    @include pageHeader();
 }
 
 /* Gallery styling for all portfolio pages (portfolio_weddings.html, portfolio_engagements.html, portfolio_editorial.html) */
-
 
 #gallery_section {
     display: -ms-flexbox;
@@ -55,7 +56,7 @@
       cursor: pointer;
   }
   
-  /* For Galleries - Create four equal columns next to each other */
+ /* For Galleries - Create four equal columns next to each other */
 
   .column {
     -ms-flex: 25%; /* IE10 */

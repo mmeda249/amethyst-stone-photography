@@ -1,3 +1,5 @@
+/* Mixins */
+
 @mixin pageParallax {
     min-height: 500px; 
     position: relative;
@@ -12,12 +14,12 @@
 }
 
 @mixin pageHeader {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        text-shadow: 0.5px 0.5px 0.5px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 /* Parallax Section for portfolio_engagements.html*/

@@ -1,3 +1,5 @@
+/* Mixins */
+
 @mixin pageParallax {
     min-height: 500px; 
     position: relative;
@@ -12,12 +14,12 @@
 }
 
 @mixin pageHeader {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        text-shadow: 0.5px 0.5px 0.5px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0.5px 0.5px 0.5px #000;
 }
 
 @mixin maxWidth {
@@ -26,7 +28,7 @@
     max-width: 960px;
 }
 
-/* The code below is styling for services.html */
+/* Main Parallax section */
 
 .parallax_services {
     background-image: url("../images/services/fall_bride_overlay.jpg");
@@ -37,6 +39,8 @@
 .services_header {
     @include pageHeader();
 }
+
+/* Services details */
 
 .breakdown_services {
     margin-top: 2rem;
@@ -70,7 +74,7 @@
     color: #d9bab3;
 }
 
-/* Testimonial Section for services.html */
+/* Testimonial Section */
 
 .testimonial {
     background-image: url(../images/services/newlyweds_embracing_lovingly1.jpg);
@@ -82,7 +86,7 @@
     background-size: cover;
 }
 
-/* Pricing Section for services.html */
+/* Pricing Section */
 
 .sessions {
     padding-top: 3rem;
