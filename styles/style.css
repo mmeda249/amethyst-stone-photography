@@ -302,7 +302,7 @@ body {
   max-width: 960px;
 }
 
-.breakdown_services hr, .contact_intro hr {
+.breakdown_services hr, .picture_style hr, .contact_intro hr {
   border: 1px solid #d9bab3;
   width: 100px;
   margin: 0 auto;
@@ -316,15 +316,32 @@ body {
   text-align: left;
 }
 
-.service_styles {
-  font-weight: 600;
-  padding-top: 1rem;
+.picture_style {
+  padding-top: 2rem;
+  background: rgba(217, 187, 180, 0.2);
+  padding-bottom: 2rem;
+}
+
+.picture_style h3 {
+  font-size: 2.8rem;
+  font-family: 'Holland', cursive;
+  padding-bottom: 0.5rem;
+}
+
+.service_styles p {
+  font-weight: 500;
+  padding-top: 2rem;
   border: transparent;
   outline: none;
+  font-size: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
 }
 
 .photo_styles {
   color: #d9bab3;
+  font-size: 1.1rem;
 }
 
 /* Testimonial Section */
