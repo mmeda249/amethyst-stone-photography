@@ -81,13 +81,15 @@
     padding-top: 2rem;
     border: transparent;
     outline: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     @include maxWidth();
+    
 }
 
 .photo_styles {
-    color: #d9bab3;
+    color: #d9bab3 !important;
     font-size: 1.1rem;
+    word-spacing: 5px;
 }
 
 /* Testimonial Section */
@@ -111,7 +113,9 @@
 .session_hr {
     border: 1px solid #d9bab3;
     width: 100px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .pricing_section {
