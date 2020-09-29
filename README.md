@@ -69,4 +69,8 @@ Text content has been created and edited by Mutsa Meda. Logo (excluding icon) wa
 * Copyright 2020 © Mutsa Meda
 * This project is licensed under the MIT License - see the LICENSE.md file for details.
 
+## Acknowledgements 
+
+* "Rose" icon by Anna Sher from the Noun Project.
+
 
