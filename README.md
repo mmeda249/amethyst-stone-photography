@@ -1,6 +1,6 @@
 # Amethyst Stone Photography
 
-Amethyst Stone is a fictional photography studio focusing on wedding, engagement and editorial photography.
+Amethyst Stone Photography is a fictional photography studio focusing on wedding, engagement and editorial photography.
 
 ## Table of contents
 
@@ -9,7 +9,7 @@ Amethyst Stone is a fictional photography studio focusing on wedding, engagement
 * [Setup](#setup)
 * [Web-Content-Development](#web-content-development)
 * [License](#license)
-* [Acknowledgements](#acknowledgements)
+* [Acknowledgments](#acknowledgments)
 
 ## Description
 
@@ -69,7 +69,7 @@ Text content has been created and edited by Mutsa Meda. Logo (excluding icon) wa
 * Copyright 2020 © Mutsa Meda
 * This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-## Acknowledgements 
+## Acknowledgments 
 
 * "Rose" icon by Anna Sher from the Noun Project.
 
